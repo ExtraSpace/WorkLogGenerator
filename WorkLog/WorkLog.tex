@@ -1,0 +1,2658 @@
+\documentclass[11pt,A4paper,]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[left=1in, right=2in, top=0.5in, bottom=0.5in]{geometry}
+\usepackage{hyperref}
+\hypersetup{unicode=true,
+            pdftitle={Work Log},
+            pdfauthor={Junali Chhetri},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{longtable,booktabs}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\newcommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+  \title{Work Log}
+  \pretitle{\vspace{\droptitle}\centering\huge}
+  \posttitle{\par}
+  \author{Junali Chhetri}
+  \preauthor{\centering\large\emph}
+  \postauthor{\par}
+  \date{}
+  \predate{}\postdate{}
+
+\usepackage{mathpazo}
+\usepackage{setspace}
+\onehalfspacing
+%\pagenumbering{gobble}
+
+\begin{document}
+\maketitle
+
+\section{Monthly Working Details}\label{monthly-working-details}
+
+\begin{longtable}[]{@{}rcrrrrr@{}}
+\toprule
+\begin{minipage}[b]{0.09\columnwidth}\raggedleft\strut
+Year\strut
+\end{minipage} & \begin{minipage}[b]{0.13\columnwidth}\centering\strut
+Month\strut
+\end{minipage} & \begin{minipage}[b]{0.09\columnwidth}\raggedleft\strut
+Hours\strut
+\end{minipage} & \begin{minipage}[b]{0.09\columnwidth}\raggedleft\strut
+Rate\strut
+\end{minipage} & \begin{minipage}[b]{0.13\columnwidth}\raggedleft\strut
+Total\strut
+\end{minipage} & \begin{minipage}[b]{0.09\columnwidth}\raggedleft\strut
+Tax\strut
+\end{minipage} & \begin{minipage}[b]{0.20\columnwidth}\raggedleft\strut
+Amount After Tax\strut
+\end{minipage}\tabularnewline
+\midrule
+\endhead
+\begin{minipage}[t]{0.09\columnwidth}\raggedleft\strut
+2.016\strut
+\end{minipage} & \begin{minipage}[t]{0.13\columnwidth}\centering\strut
+May\strut
+\end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\raggedleft\strut
+42,00\strut
+\end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\raggedleft\strut
+174,5\strut
+\end{minipage} & \begin{minipage}[t]{0.13\columnwidth}\raggedleft\strut
+7.329,00\strut
+\end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\raggedleft\strut
+782\strut
+\end{minipage} & \begin{minipage}[t]{0.20\columnwidth}\raggedleft\strut
+6.547,00\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.09\columnwidth}\raggedleft\strut
+2.016\strut
+\end{minipage} & \begin{minipage}[t]{0.13\columnwidth}\centering\strut
+June\strut
+\end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\raggedleft\strut
+43,00\strut
+\end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\raggedleft\strut
+174,5\strut
+\end{minipage} & \begin{minipage}[t]{0.13\columnwidth}\raggedleft\strut
+7.503,50\strut
+\end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\raggedleft\strut
+837\strut
+\end{minipage} & \begin{minipage}[t]{0.20\columnwidth}\raggedleft\strut
+6.666,50\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.09\columnwidth}\raggedleft\strut
+2.016\strut
+\end{minipage} & \begin{minipage}[t]{0.13\columnwidth}\centering\strut
+July\strut
+\end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\raggedleft\strut
+45,00\strut
+\end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\raggedleft\strut
+174,5\strut
+\end{minipage} & \begin{minipage}[t]{0.13\columnwidth}\raggedleft\strut
+7.852,50\strut
+\end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\raggedleft\strut
+919\strut
+\end{minipage} & \begin{minipage}[t]{0.20\columnwidth}\raggedleft\strut
+6.933,50\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.09\columnwidth}\raggedleft\strut
+2.016\strut
+\end{minipage} & \begin{minipage}[t]{0.13\columnwidth}\centering\strut
+August\strut
+\end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\raggedleft\strut
+64,00\strut
+\end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\raggedleft\strut
+174,5\strut
+\end{minipage} & \begin{minipage}[t]{0.13\columnwidth}\raggedleft\strut
+11.168,00\strut
+\end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\raggedleft\strut
+1.823\strut
+\end{minipage} & \begin{minipage}[t]{0.20\columnwidth}\raggedleft\strut
+9.345,00\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.09\columnwidth}\raggedleft\strut
+2.016\strut
+\end{minipage} & \begin{minipage}[t]{0.13\columnwidth}\centering\strut
+September\strut
+\end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\raggedleft\strut
+69,50\strut
+\end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\raggedleft\strut
+174,5\strut
+\end{minipage} & \begin{minipage}[t]{0.13\columnwidth}\raggedleft\strut
+12.127,75\strut
+\end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\raggedleft\strut
+2.097\strut
+\end{minipage} & \begin{minipage}[t]{0.20\columnwidth}\raggedleft\strut
+10.030,75\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.09\columnwidth}\raggedleft\strut
+2.016\strut
+\end{minipage} & \begin{minipage}[t]{0.13\columnwidth}\centering\strut
+October\strut
+\end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\raggedleft\strut
+66,25\strut
+\end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\raggedleft\strut
+174,5\strut
+\end{minipage} & \begin{minipage}[t]{0.13\columnwidth}\raggedleft\strut
+11.560,62\strut
+\end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\raggedleft\strut
+1.933\strut
+\end{minipage} & \begin{minipage}[t]{0.20\columnwidth}\raggedleft\strut
+9.627,62\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.09\columnwidth}\raggedleft\strut
+2.016\strut
+\end{minipage} & \begin{minipage}[t]{0.13\columnwidth}\centering\strut
+November\strut
+\end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\raggedleft\strut
+78,50\strut
+\end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\raggedleft\strut
+174,5\strut
+\end{minipage} & \begin{minipage}[t]{0.13\columnwidth}\raggedleft\strut
+13.698,25\strut
+\end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\raggedleft\strut
+2.511\strut
+\end{minipage} & \begin{minipage}[t]{0.20\columnwidth}\raggedleft\strut
+11.187,25\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.09\columnwidth}\raggedleft\strut
+2.016\strut
+\end{minipage} & \begin{minipage}[t]{0.13\columnwidth}\centering\strut
+December\strut
+\end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\raggedleft\strut
+90,25\strut
+\end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\raggedleft\strut
+174,5\strut
+\end{minipage} & \begin{minipage}[t]{0.13\columnwidth}\raggedleft\strut
+15.748,62\strut
+\end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\raggedleft\strut
+3.097\strut
+\end{minipage} & \begin{minipage}[t]{0.20\columnwidth}\raggedleft\strut
+12.651,62\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.09\columnwidth}\raggedleft\strut
+2.017\strut
+\end{minipage} & \begin{minipage}[t]{0.13\columnwidth}\centering\strut
+January\strut
+\end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\raggedleft\strut
+25,00\strut
+\end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\raggedleft\strut
+175,0\strut
+\end{minipage} & \begin{minipage}[t]{0.13\columnwidth}\raggedleft\strut
+4.375,00\strut
+\end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\raggedleft\strut
+0\strut
+\end{minipage} & \begin{minipage}[t]{0.20\columnwidth}\raggedleft\strut
+4.375,00\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.09\columnwidth}\raggedleft\strut
+2.017\strut
+\end{minipage} & \begin{minipage}[t]{0.13\columnwidth}\centering\strut
+February\strut
+\end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\raggedleft\strut
+44,50\strut
+\end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\raggedleft\strut
+175,0\strut
+\end{minipage} & \begin{minipage}[t]{0.13\columnwidth}\raggedleft\strut
+7.787,50\strut
+\end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\raggedleft\strut
+834\strut
+\end{minipage} & \begin{minipage}[t]{0.20\columnwidth}\raggedleft\strut
+6.953,50\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.09\columnwidth}\raggedleft\strut
+2.017\strut
+\end{minipage} & \begin{minipage}[t]{0.13\columnwidth}\centering\strut
+March\strut
+\end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\raggedleft\strut
+78,00\strut
+\end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\raggedleft\strut
+174,5\strut
+\end{minipage} & \begin{minipage}[t]{0.13\columnwidth}\raggedleft\strut
+13.611,00\strut
+\end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\raggedleft\strut
+2.396\strut
+\end{minipage} & \begin{minipage}[t]{0.20\columnwidth}\raggedleft\strut
+11.215,00\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.09\columnwidth}\raggedleft\strut
+2.017\strut
+\end{minipage} & \begin{minipage}[t]{0.13\columnwidth}\centering\strut
+April\strut
+\end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\raggedleft\strut
+18,75\strut
+\end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\raggedleft\strut
+174,5\strut
+\end{minipage} & \begin{minipage}[t]{0.13\columnwidth}\raggedleft\strut
+3.271,88\strut
+\end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\raggedleft\strut
+0\strut
+\end{minipage} & \begin{minipage}[t]{0.20\columnwidth}\raggedleft\strut
+3.271,88\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+
+\section{Complete List of Working
+Hours}\label{complete-list-of-working-hours}
+
+\begin{longtable}[]{@{}lrrll@{}}
+\toprule
+WorkPlace & Date & Time & Day & Month\tabularnewline
+\midrule
+\endhead
+\texttt{Holtermann} & \texttt{2017-02-18} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{February}\tabularnewline
+\texttt{Holtermann} & \texttt{2017-02-20} & \texttt{1} & \texttt{Monday}
+& \texttt{February}\tabularnewline
+\texttt{Holtermann} & \texttt{2017-02-22} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{February}\tabularnewline
+\texttt{Holtermann} & \texttt{2017-02-25} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{February}\tabularnewline
+\texttt{Holtermann} & \texttt{2017-02-27} & \texttt{1} & \texttt{Monday}
+& \texttt{February}\tabularnewline
+\texttt{CGM\ CMA} & \texttt{2017-02-18} & \texttt{2} & \texttt{Saturday}
+& \texttt{February}\tabularnewline
+\texttt{CGM\ CMA} & \texttt{2017-02-25} & \texttt{2} & \texttt{Saturday}
+& \texttt{February}\tabularnewline
+\texttt{Elite\ Photo} & \texttt{2017-02-20} & \texttt{1} &
+\texttt{Monday} & \texttt{February}\tabularnewline
+\texttt{Elite\ Photo} & \texttt{2017-02-27} & \texttt{1} &
+\texttt{Monday} & \texttt{February}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2017-02-18} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{February}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2017-02-22} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{February}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2017-02-25} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{February}\tabularnewline
+\texttt{Pure\ Water} & \texttt{2017-02-18} & \texttt{1.25} &
+\texttt{Saturday} & \texttt{February}\tabularnewline
+\texttt{Pure\ Water} & \texttt{2017-02-25} & \texttt{1.25} &
+\texttt{Saturday} & \texttt{February}\tabularnewline
+\texttt{Forskning\ Partner} & \texttt{2017-02-18} & \texttt{1} &
+\texttt{Saturday} & \texttt{February}\tabularnewline
+\texttt{Forskning\ Partner} & \texttt{2017-02-25} & \texttt{1} &
+\texttt{Saturday} & \texttt{February}\tabularnewline
+\texttt{Furveric\ AS} & \texttt{2017-01-01} & \texttt{5} &
+\texttt{Sunday} & \texttt{January}\tabularnewline
+\texttt{Furveric\ AS} & \texttt{2017-01-08} & \texttt{5} &
+\texttt{Sunday} & \texttt{January}\tabularnewline
+\texttt{Furveric\ AS} & \texttt{2017-01-15} & \texttt{5} &
+\texttt{Sunday} & \texttt{January}\tabularnewline
+\texttt{Furveric\ AS} & \texttt{2017-01-22} & \texttt{5} &
+\texttt{Sunday} & \texttt{January}\tabularnewline
+\texttt{Furveric\ AS} & \texttt{2017-01-29} & \texttt{5} &
+\texttt{Sunday} & \texttt{January}\tabularnewline
+\texttt{Furveric\ AS} & \texttt{2017-02-05} & \texttt{5} &
+\texttt{Sunday} & \texttt{February}\tabularnewline
+\texttt{Furveric\ AS} & \texttt{2017-02-12} & \texttt{5} &
+\texttt{Sunday} & \texttt{February}\tabularnewline
+\texttt{Furveric\ AS} & \texttt{2017-02-19} & \texttt{5} &
+\texttt{Sunday} & \texttt{February}\tabularnewline
+\texttt{Furveric\ AS} & \texttt{2017-02-26} & \texttt{5} &
+\texttt{Sunday} & \texttt{February}\tabularnewline
+\texttt{Krista\ Hartmann} & \texttt{2017-02-19} & \texttt{1.5} &
+\texttt{Sunday} & \texttt{February}\tabularnewline
+\texttt{Krista\ Hartmann} & \texttt{2017-02-26} & \texttt{1.5} &
+\texttt{Sunday} & \texttt{February}\tabularnewline
+\texttt{Bergen\ Flis} & \texttt{2016-08-30} & \texttt{1.5} &
+\texttt{Tuesday} & \texttt{August}\tabularnewline
+\texttt{Bergen\ Flis} & \texttt{2016-09-02} & \texttt{1.5} &
+\texttt{Friday} & \texttt{September}\tabularnewline
+\texttt{Bergen\ Flis} & \texttt{2016-09-06} & \texttt{1.5} &
+\texttt{Tuesday} & \texttt{September}\tabularnewline
+\texttt{Bergen\ Flis} & \texttt{2016-09-09} & \texttt{1.5} &
+\texttt{Friday} & \texttt{September}\tabularnewline
+\texttt{Bergen\ Flis} & \texttt{2016-09-13} & \texttt{1.5} &
+\texttt{Tuesday} & \texttt{September}\tabularnewline
+\texttt{Bergen\ Flis} & \texttt{2016-09-16} & \texttt{1.5} &
+\texttt{Friday} & \texttt{September}\tabularnewline
+\texttt{Bergen\ Flis} & \texttt{2016-09-20} & \texttt{1.5} &
+\texttt{Tuesday} & \texttt{September}\tabularnewline
+\texttt{Bergen\ Flis} & \texttt{2016-09-23} & \texttt{1.5} &
+\texttt{Friday} & \texttt{September}\tabularnewline
+\texttt{Bergen\ Flis} & \texttt{2016-09-27} & \texttt{1.5} &
+\texttt{Tuesday} & \texttt{September}\tabularnewline
+\texttt{Bergen\ Flis} & \texttt{2016-09-30} & \texttt{1.5} &
+\texttt{Friday} & \texttt{September}\tabularnewline
+\texttt{Bolia} & \texttt{2016-08-12} & \texttt{1.5} & \texttt{Friday} &
+\texttt{August}\tabularnewline
+\texttt{Bolia} & \texttt{2016-08-16} & \texttt{1.5} & \texttt{Tuesday} &
+\texttt{August}\tabularnewline
+\texttt{Bolia} & \texttt{2016-08-19} & \texttt{1.5} & \texttt{Friday} &
+\texttt{August}\tabularnewline
+\texttt{Bolia} & \texttt{2016-08-23} & \texttt{1.5} & \texttt{Tuesday} &
+\texttt{August}\tabularnewline
+\texttt{Bolia} & \texttt{2016-08-26} & \texttt{1.5} & \texttt{Friday} &
+\texttt{August}\tabularnewline
+\texttt{Brilland} & \texttt{2016-08-12} & \texttt{1} & \texttt{Friday} &
+\texttt{August}\tabularnewline
+\texttt{Brilland} & \texttt{2016-08-15} & \texttt{1} & \texttt{Monday} &
+\texttt{August}\tabularnewline
+\texttt{Brilland} & \texttt{2016-08-19} & \texttt{1} & \texttt{Friday} &
+\texttt{August}\tabularnewline
+\texttt{Brilland} & \texttt{2016-08-22} & \texttt{1} & \texttt{Monday} &
+\texttt{August}\tabularnewline
+\texttt{Brilland} & \texttt{2016-08-26} & \texttt{1} & \texttt{Friday} &
+\texttt{August}\tabularnewline
+\texttt{DinSko} & \texttt{2016-08-12} & \texttt{1} & \texttt{Friday} &
+\texttt{August}\tabularnewline
+\texttt{DinSko} & \texttt{2016-08-15} & \texttt{1} & \texttt{Monday} &
+\texttt{August}\tabularnewline
+\texttt{DinSko} & \texttt{2016-08-19} & \texttt{1} & \texttt{Friday} &
+\texttt{August}\tabularnewline
+\texttt{DinSko} & \texttt{2016-08-22} & \texttt{1} & \texttt{Monday} &
+\texttt{August}\tabularnewline
+\texttt{DinSko} & \texttt{2016-08-26} & \texttt{1} & \texttt{Friday} &
+\texttt{August}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-05-02} & \texttt{1} & \texttt{Monday}
+& \texttt{May}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-05-04} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{May}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-05-07} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{May}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-05-09} & \texttt{1} & \texttt{Monday}
+& \texttt{May}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-05-11} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{May}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-05-14} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{May}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-05-16} & \texttt{1} & \texttt{Monday}
+& \texttt{May}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-05-18} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{May}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-05-21} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{May}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-05-23} & \texttt{1} & \texttt{Monday}
+& \texttt{May}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-05-25} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{May}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-05-28} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{May}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-05-30} & \texttt{1} & \texttt{Monday}
+& \texttt{May}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-06-01} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{June}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-06-04} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{June}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-06-06} & \texttt{1} & \texttt{Monday}
+& \texttt{June}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-06-08} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{June}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-06-11} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{June}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-06-13} & \texttt{1} & \texttt{Monday}
+& \texttt{June}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-06-15} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{June}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-06-18} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{June}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-06-20} & \texttt{1} & \texttt{Monday}
+& \texttt{June}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-06-22} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{June}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-06-25} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{June}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-06-27} & \texttt{1} & \texttt{Monday}
+& \texttt{June}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-06-29} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{June}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-07-02} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{July}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-07-04} & \texttt{1} & \texttt{Monday}
+& \texttt{July}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-07-06} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{July}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-07-09} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{July}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-07-11} & \texttt{1} & \texttt{Monday}
+& \texttt{July}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-07-13} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{July}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-07-16} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{July}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-07-18} & \texttt{1} & \texttt{Monday}
+& \texttt{July}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-07-20} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{July}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-07-23} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{July}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-07-25} & \texttt{1} & \texttt{Monday}
+& \texttt{July}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-07-27} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{July}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-07-30} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{July}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-08-01} & \texttt{1} & \texttt{Monday}
+& \texttt{August}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-08-03} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{August}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-08-06} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{August}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-08-08} & \texttt{1} & \texttt{Monday}
+& \texttt{August}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-08-10} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{August}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-08-13} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{August}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-08-15} & \texttt{1} & \texttt{Monday}
+& \texttt{August}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-08-17} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{August}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-08-20} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{August}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-08-22} & \texttt{1} & \texttt{Monday}
+& \texttt{August}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-08-24} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{August}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-08-27} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{August}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-08-29} & \texttt{1} & \texttt{Monday}
+& \texttt{August}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-08-31} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{August}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-09-03} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{September}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-09-05} & \texttt{1} & \texttt{Monday}
+& \texttt{September}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-09-07} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{September}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-09-10} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{September}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-09-12} & \texttt{1} & \texttt{Monday}
+& \texttt{September}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-09-14} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{September}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-09-17} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{September}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-09-19} & \texttt{1} & \texttt{Monday}
+& \texttt{September}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-09-21} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{September}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-09-24} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{September}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-09-26} & \texttt{1} & \texttt{Monday}
+& \texttt{September}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-09-28} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{September}\tabularnewline
+\texttt{CGM\ CMA} & \texttt{2016-05-07} & \texttt{2} & \texttt{Saturday}
+& \texttt{May}\tabularnewline
+\texttt{CGM\ CMA} & \texttt{2016-05-14} & \texttt{2} & \texttt{Saturday}
+& \texttt{May}\tabularnewline
+\texttt{CGM\ CMA} & \texttt{2016-05-21} & \texttt{2} & \texttt{Saturday}
+& \texttt{May}\tabularnewline
+\texttt{CGM\ CMA} & \texttt{2016-05-28} & \texttt{2} & \texttt{Saturday}
+& \texttt{May}\tabularnewline
+\texttt{CGM\ CMA} & \texttt{2016-06-04} & \texttt{2} & \texttt{Saturday}
+& \texttt{June}\tabularnewline
+\texttt{CGM\ CMA} & \texttt{2016-06-11} & \texttt{2} & \texttt{Saturday}
+& \texttt{June}\tabularnewline
+\texttt{CGM\ CMA} & \texttt{2016-06-18} & \texttt{2} & \texttt{Saturday}
+& \texttt{June}\tabularnewline
+\texttt{CGM\ CMA} & \texttt{2016-06-25} & \texttt{2} & \texttt{Saturday}
+& \texttt{June}\tabularnewline
+\texttt{CGM\ CMA} & \texttt{2016-07-02} & \texttt{2} & \texttt{Saturday}
+& \texttt{July}\tabularnewline
+\texttt{CGM\ CMA} & \texttt{2016-07-09} & \texttt{2} & \texttt{Saturday}
+& \texttt{July}\tabularnewline
+\texttt{CGM\ CMA} & \texttt{2016-07-16} & \texttt{2} & \texttt{Saturday}
+& \texttt{July}\tabularnewline
+\texttt{CGM\ CMA} & \texttt{2016-07-23} & \texttt{2} & \texttt{Saturday}
+& \texttt{July}\tabularnewline
+\texttt{CGM\ CMA} & \texttt{2016-07-30} & \texttt{2} & \texttt{Saturday}
+& \texttt{July}\tabularnewline
+\texttt{CGM\ CMA} & \texttt{2016-08-06} & \texttt{2} & \texttt{Saturday}
+& \texttt{August}\tabularnewline
+\texttt{CGM\ CMA} & \texttt{2016-08-13} & \texttt{2} & \texttt{Saturday}
+& \texttt{August}\tabularnewline
+\texttt{CGM\ CMA} & \texttt{2016-08-20} & \texttt{2} & \texttt{Saturday}
+& \texttt{August}\tabularnewline
+\texttt{CGM\ CMA} & \texttt{2016-08-27} & \texttt{2} & \texttt{Saturday}
+& \texttt{August}\tabularnewline
+\texttt{CGM\ CMA} & \texttt{2016-09-03} & \texttt{2} & \texttt{Saturday}
+& \texttt{September}\tabularnewline
+\texttt{CGM\ CMA} & \texttt{2016-09-10} & \texttt{2} & \texttt{Saturday}
+& \texttt{September}\tabularnewline
+\texttt{CGM\ CMA} & \texttt{2016-09-17} & \texttt{2} & \texttt{Saturday}
+& \texttt{September}\tabularnewline
+\texttt{CGM\ CMA} & \texttt{2016-09-24} & \texttt{2} & \texttt{Saturday}
+& \texttt{September}\tabularnewline
+\texttt{Elite\ Photo} & \texttt{2016-05-02} & \texttt{1} &
+\texttt{Monday} & \texttt{May}\tabularnewline
+\texttt{Elite\ Photo} & \texttt{2016-05-09} & \texttt{1} &
+\texttt{Monday} & \texttt{May}\tabularnewline
+\texttt{Elite\ Photo} & \texttt{2016-05-16} & \texttt{1} &
+\texttt{Monday} & \texttt{May}\tabularnewline
+\texttt{Elite\ Photo} & \texttt{2016-05-23} & \texttt{1} &
+\texttt{Monday} & \texttt{May}\tabularnewline
+\texttt{Elite\ Photo} & \texttt{2016-05-30} & \texttt{1} &
+\texttt{Monday} & \texttt{May}\tabularnewline
+\texttt{Elite\ Photo} & \texttt{2016-06-06} & \texttt{1} &
+\texttt{Monday} & \texttt{June}\tabularnewline
+\texttt{Elite\ Photo} & \texttt{2016-06-13} & \texttt{1} &
+\texttt{Monday} & \texttt{June}\tabularnewline
+\texttt{Elite\ Photo} & \texttt{2016-06-20} & \texttt{1} &
+\texttt{Monday} & \texttt{June}\tabularnewline
+\texttt{Elite\ Photo} & \texttt{2016-06-27} & \texttt{1} &
+\texttt{Monday} & \texttt{June}\tabularnewline
+\texttt{Elite\ Photo} & \texttt{2016-07-04} & \texttt{1} &
+\texttt{Monday} & \texttt{July}\tabularnewline
+\texttt{Elite\ Photo} & \texttt{2016-07-11} & \texttt{1} &
+\texttt{Monday} & \texttt{July}\tabularnewline
+\texttt{Elite\ Photo} & \texttt{2016-07-18} & \texttt{1} &
+\texttt{Monday} & \texttt{July}\tabularnewline
+\texttt{Elite\ Photo} & \texttt{2016-07-25} & \texttt{1} &
+\texttt{Monday} & \texttt{July}\tabularnewline
+\texttt{Elite\ Photo} & \texttt{2016-08-01} & \texttt{1} &
+\texttt{Monday} & \texttt{August}\tabularnewline
+\texttt{Elite\ Photo} & \texttt{2016-08-08} & \texttt{1} &
+\texttt{Monday} & \texttt{August}\tabularnewline
+\texttt{Elite\ Photo} & \texttt{2016-08-15} & \texttt{1} &
+\texttt{Monday} & \texttt{August}\tabularnewline
+\texttt{Elite\ Photo} & \texttt{2016-08-22} & \texttt{1} &
+\texttt{Monday} & \texttt{August}\tabularnewline
+\texttt{Elite\ Photo} & \texttt{2016-08-29} & \texttt{1} &
+\texttt{Monday} & \texttt{August}\tabularnewline
+\texttt{Elite\ Photo} & \texttt{2016-09-05} & \texttt{1} &
+\texttt{Monday} & \texttt{September}\tabularnewline
+\texttt{Elite\ Photo} & \texttt{2016-09-12} & \texttt{1} &
+\texttt{Monday} & \texttt{September}\tabularnewline
+\texttt{Elite\ Photo} & \texttt{2016-09-19} & \texttt{1} &
+\texttt{Monday} & \texttt{September}\tabularnewline
+\texttt{Elite\ Photo} & \texttt{2016-09-26} & \texttt{1} &
+\texttt{Monday} & \texttt{September}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-05-04} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{May}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-05-07} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{May}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-05-11} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{May}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-05-14} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{May}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-05-18} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{May}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-05-21} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{May}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-05-25} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{May}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-05-28} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{May}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-06-01} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{June}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-06-04} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{June}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-06-08} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{June}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-06-11} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{June}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-06-15} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{June}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-06-18} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{June}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-06-22} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{June}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-06-25} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{June}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-06-29} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{June}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-07-02} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{July}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-07-06} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{July}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-07-09} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{July}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-07-13} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{July}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-07-16} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{July}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-07-20} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{July}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-07-23} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{July}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-07-27} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{July}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-07-30} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{July}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-08-03} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{August}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-08-06} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{August}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-08-10} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{August}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-08-13} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{August}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-08-17} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{August}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-08-20} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{August}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-08-24} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{August}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-08-27} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{August}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-08-31} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{August}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-09-03} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{September}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-09-07} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{September}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-09-10} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{September}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-09-14} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{September}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-09-17} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{September}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-09-21} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{September}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-09-24} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{September}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-09-28} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{September}\tabularnewline
+\texttt{H\&M,\ Moss} & \texttt{2016-09-21} & \texttt{5} &
+\texttt{Wednesday} & \texttt{September}\tabularnewline
+\texttt{H\&M,\ Moss} & \texttt{2016-09-28} & \texttt{5} &
+\texttt{Wednesday} & \texttt{September}\tabularnewline
+\texttt{Tele\ Office,\ Moss} & \texttt{2016-09-21} & \texttt{3} &
+\texttt{Wednesday} & \texttt{September}\tabularnewline
+\texttt{Tele\ Office,\ Moss} & \texttt{2016-09-28} & \texttt{3} &
+\texttt{Wednesday} & \texttt{September}\tabularnewline
+\texttt{Holtermann} & \texttt{2017-03-01} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{March}\tabularnewline
+\texttt{Holtermann} & \texttt{2017-03-04} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{March}\tabularnewline
+\texttt{Holtermann} & \texttt{2017-03-06} & \texttt{1} & \texttt{Monday}
+& \texttt{March}\tabularnewline
+\texttt{Holtermann} & \texttt{2017-03-08} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{March}\tabularnewline
+\texttt{Holtermann} & \texttt{2017-03-11} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{March}\tabularnewline
+\texttt{Holtermann} & \texttt{2017-03-13} & \texttt{1} & \texttt{Monday}
+& \texttt{March}\tabularnewline
+\texttt{Holtermann} & \texttt{2017-03-15} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{March}\tabularnewline
+\texttt{Holtermann} & \texttt{2017-03-18} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{March}\tabularnewline
+\texttt{Holtermann} & \texttt{2017-03-20} & \texttt{1} & \texttt{Monday}
+& \texttt{March}\tabularnewline
+\texttt{Holtermann} & \texttt{2017-03-22} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{March}\tabularnewline
+\texttt{Holtermann} & \texttt{2017-03-25} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{March}\tabularnewline
+\texttt{Holtermann} & \texttt{2017-03-27} & \texttt{1} & \texttt{Monday}
+& \texttt{March}\tabularnewline
+\texttt{Holtermann} & \texttt{2017-03-29} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{March}\tabularnewline
+\texttt{Holtermann} & \texttt{2017-04-01} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{April}\tabularnewline
+\texttt{Holtermann} & \texttt{2017-04-03} & \texttt{1} & \texttt{Monday}
+& \texttt{April}\tabularnewline
+\texttt{Holtermann} & \texttt{2017-04-05} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{April}\tabularnewline
+\texttt{CGM\ CMA} & \texttt{2017-03-04} & \texttt{2} & \texttt{Saturday}
+& \texttt{March}\tabularnewline
+\texttt{CGM\ CMA} & \texttt{2017-03-11} & \texttt{2} & \texttt{Saturday}
+& \texttt{March}\tabularnewline
+\texttt{CGM\ CMA} & \texttt{2017-03-18} & \texttt{2} & \texttt{Saturday}
+& \texttt{March}\tabularnewline
+\texttt{CGM\ CMA} & \texttt{2017-03-25} & \texttt{2} & \texttt{Saturday}
+& \texttt{March}\tabularnewline
+\texttt{CGM\ CMA} & \texttt{2017-04-01} & \texttt{2} & \texttt{Saturday}
+& \texttt{April}\tabularnewline
+\texttt{Elite\ Photo} & \texttt{2017-03-06} & \texttt{1} &
+\texttt{Monday} & \texttt{March}\tabularnewline
+\texttt{Elite\ Photo} & \texttt{2017-03-13} & \texttt{1} &
+\texttt{Monday} & \texttt{March}\tabularnewline
+\texttt{Elite\ Photo} & \texttt{2017-03-20} & \texttt{1} &
+\texttt{Monday} & \texttt{March}\tabularnewline
+\texttt{Elite\ Photo} & \texttt{2017-03-27} & \texttt{1} &
+\texttt{Monday} & \texttt{March}\tabularnewline
+\texttt{Elite\ Photo} & \texttt{2017-04-03} & \texttt{1} &
+\texttt{Monday} & \texttt{April}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2017-03-01} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{March}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2017-03-04} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{March}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2017-03-08} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{March}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2017-03-11} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{March}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2017-03-15} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{March}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2017-03-18} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{March}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2017-03-22} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{March}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2017-03-25} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{March}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2017-03-29} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{March}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2017-04-01} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{April}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2017-04-05} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{April}\tabularnewline
+\texttt{Pure\ Water} & \texttt{2017-03-04} & \texttt{1.25} &
+\texttt{Saturday} & \texttt{March}\tabularnewline
+\texttt{Pure\ Water} & \texttt{2017-03-11} & \texttt{1.25} &
+\texttt{Saturday} & \texttt{March}\tabularnewline
+\texttt{Pure\ Water} & \texttt{2017-03-18} & \texttt{1.25} &
+\texttt{Saturday} & \texttt{March}\tabularnewline
+\texttt{Pure\ Water} & \texttt{2017-03-25} & \texttt{1.25} &
+\texttt{Saturday} & \texttt{March}\tabularnewline
+\texttt{Pure\ Water} & \texttt{2017-04-01} & \texttt{1.25} &
+\texttt{Saturday} & \texttt{April}\tabularnewline
+\texttt{Forskning\ Partner} & \texttt{2017-03-04} & \texttt{1} &
+\texttt{Saturday} & \texttt{March}\tabularnewline
+\texttt{Forskning\ Partner} & \texttt{2017-03-11} & \texttt{1} &
+\texttt{Saturday} & \texttt{March}\tabularnewline
+\texttt{Forskning\ Partner} & \texttt{2017-03-18} & \texttt{1} &
+\texttt{Saturday} & \texttt{March}\tabularnewline
+\texttt{Forskning\ Partner} & \texttt{2017-03-25} & \texttt{1} &
+\texttt{Saturday} & \texttt{March}\tabularnewline
+\texttt{Forskning\ Partner} & \texttt{2017-04-01} & \texttt{1} &
+\texttt{Saturday} & \texttt{April}\tabularnewline
+\texttt{Furveric\ AS} & \texttt{2017-03-05} & \texttt{5} &
+\texttt{Sunday} & \texttt{March}\tabularnewline
+\texttt{Furveric\ AS} & \texttt{2017-03-12} & \texttt{5} &
+\texttt{Sunday} & \texttt{March}\tabularnewline
+\texttt{Furveric\ AS} & \texttt{2017-03-19} & \texttt{5} &
+\texttt{Sunday} & \texttt{March}\tabularnewline
+\texttt{Furveric\ AS} & \texttt{2017-03-26} & \texttt{5} &
+\texttt{Sunday} & \texttt{March}\tabularnewline
+\texttt{Furveric\ AS} & \texttt{2017-04-02} & \texttt{5} &
+\texttt{Sunday} & \texttt{April}\tabularnewline
+\texttt{Krista\ Hartmann} & \texttt{2017-03-05} & \texttt{1.5} &
+\texttt{Sunday} & \texttt{March}\tabularnewline
+\texttt{Krista\ Hartmann} & \texttt{2017-03-12} & \texttt{1.5} &
+\texttt{Sunday} & \texttt{March}\tabularnewline
+\texttt{Krista\ Hartmann} & \texttt{2017-03-19} & \texttt{1.5} &
+\texttt{Sunday} & \texttt{March}\tabularnewline
+\texttt{Krista\ Hartmann} & \texttt{2017-03-26} & \texttt{1.5} &
+\texttt{Sunday} & \texttt{March}\tabularnewline
+\texttt{Krista\ Hartmann} & \texttt{2017-04-02} & \texttt{1.5} &
+\texttt{Sunday} & \texttt{April}\tabularnewline
+\texttt{Bergen\ Flis} & \texttt{2016-10-04} & \texttt{1.5} &
+\texttt{Tuesday} & \texttt{October}\tabularnewline
+\texttt{Bergen\ Flis} & \texttt{2016-10-07} & \texttt{1.5} &
+\texttt{Friday} & \texttt{October}\tabularnewline
+\texttt{Bergen\ Flis} & \texttt{2016-10-11} & \texttt{1.5} &
+\texttt{Tuesday} & \texttt{October}\tabularnewline
+\texttt{Bergen\ Flis} & \texttt{2016-10-14} & \texttt{1.5} &
+\texttt{Friday} & \texttt{October}\tabularnewline
+\texttt{Bergen\ Flis} & \texttt{2016-10-18} & \texttt{1.5} &
+\texttt{Tuesday} & \texttt{October}\tabularnewline
+\texttt{Bergen\ Flis} & \texttt{2016-10-21} & \texttt{1.5} &
+\texttt{Friday} & \texttt{October}\tabularnewline
+\texttt{Bergen\ Flis} & \texttt{2016-10-25} & \texttt{1.5} &
+\texttt{Tuesday} & \texttt{October}\tabularnewline
+\texttt{Bergen\ Flis} & \texttt{2016-10-28} & \texttt{1.5} &
+\texttt{Friday} & \texttt{October}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-10-01} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{October}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-10-03} & \texttt{1} & \texttt{Monday}
+& \texttt{October}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-10-05} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{October}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-10-08} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{October}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-10-10} & \texttt{1} & \texttt{Monday}
+& \texttt{October}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-10-12} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{October}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-10-15} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{October}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-10-17} & \texttt{1} & \texttt{Monday}
+& \texttt{October}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-10-19} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{October}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-10-22} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{October}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-10-24} & \texttt{1} & \texttt{Monday}
+& \texttt{October}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-10-26} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{October}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-10-29} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{October}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-10-31} & \texttt{1} & \texttt{Monday}
+& \texttt{October}\tabularnewline
+\texttt{CGM\ CMA} & \texttt{2016-10-01} & \texttt{2} & \texttt{Saturday}
+& \texttt{October}\tabularnewline
+\texttt{CGM\ CMA} & \texttt{2016-10-08} & \texttt{2} & \texttt{Saturday}
+& \texttt{October}\tabularnewline
+\texttt{CGM\ CMA} & \texttt{2016-10-15} & \texttt{2} & \texttt{Saturday}
+& \texttt{October}\tabularnewline
+\texttt{CGM\ CMA} & \texttt{2016-10-22} & \texttt{2} & \texttt{Saturday}
+& \texttt{October}\tabularnewline
+\texttt{CGM\ CMA} & \texttt{2016-10-29} & \texttt{2} & \texttt{Saturday}
+& \texttt{October}\tabularnewline
+\texttt{Elite\ Photo} & \texttt{2016-10-03} & \texttt{1} &
+\texttt{Monday} & \texttt{October}\tabularnewline
+\texttt{Elite\ Photo} & \texttt{2016-10-10} & \texttt{1} &
+\texttt{Monday} & \texttt{October}\tabularnewline
+\texttt{Elite\ Photo} & \texttt{2016-10-17} & \texttt{1} &
+\texttt{Monday} & \texttt{October}\tabularnewline
+\texttt{Elite\ Photo} & \texttt{2016-10-24} & \texttt{1} &
+\texttt{Monday} & \texttt{October}\tabularnewline
+\texttt{Elite\ Photo} & \texttt{2016-10-31} & \texttt{1} &
+\texttt{Monday} & \texttt{October}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-10-01} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{October}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-10-05} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{October}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-10-08} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{October}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-10-12} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{October}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-10-15} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{October}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-10-19} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{October}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-10-22} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{October}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-10-26} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{October}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-10-29} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{October}\tabularnewline
+\texttt{Pure\ Water} & \texttt{2016-10-29} & \texttt{1.25} &
+\texttt{Saturday} & \texttt{October}\tabularnewline
+\texttt{Forskning\ Partner} & \texttt{2016-10-29} & \texttt{1} &
+\texttt{Saturday} & \texttt{October}\tabularnewline
+\texttt{Furveric} & \texttt{2016-10-30} & \texttt{5} & \texttt{Sunday} &
+\texttt{October}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-11-02} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{November}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-11-05} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{November}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-11-07} & \texttt{1} & \texttt{Monday}
+& \texttt{November}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-11-09} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{November}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-11-12} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{November}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-11-14} & \texttt{1} & \texttt{Monday}
+& \texttt{November}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-11-16} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{November}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-11-19} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{November}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-11-21} & \texttt{1} & \texttt{Monday}
+& \texttt{November}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-11-23} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{November}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-11-26} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{November}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-11-28} & \texttt{1} & \texttt{Monday}
+& \texttt{November}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-11-30} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{November}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-12-03} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{December}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-12-05} & \texttt{1} & \texttt{Monday}
+& \texttt{December}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-12-07} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{December}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-12-10} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{December}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-12-12} & \texttt{1} & \texttt{Monday}
+& \texttt{December}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-12-14} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{December}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-12-17} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{December}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-12-19} & \texttt{1} & \texttt{Monday}
+& \texttt{December}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-12-21} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{December}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-12-24} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{December}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-12-26} & \texttt{1} & \texttt{Monday}
+& \texttt{December}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-12-28} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{December}\tabularnewline
+\texttt{Holtermann} & \texttt{2016-12-31} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{December}\tabularnewline
+\texttt{CGM\ CMA} & \texttt{2016-11-05} & \texttt{2} & \texttt{Saturday}
+& \texttt{November}\tabularnewline
+\texttt{CGM\ CMA} & \texttt{2016-11-12} & \texttt{2} & \texttt{Saturday}
+& \texttt{November}\tabularnewline
+\texttt{CGM\ CMA} & \texttt{2016-11-19} & \texttt{2} & \texttt{Saturday}
+& \texttt{November}\tabularnewline
+\texttt{CGM\ CMA} & \texttt{2016-11-26} & \texttt{2} & \texttt{Saturday}
+& \texttt{November}\tabularnewline
+\texttt{CGM\ CMA} & \texttt{2016-12-03} & \texttt{2} & \texttt{Saturday}
+& \texttt{December}\tabularnewline
+\texttt{CGM\ CMA} & \texttt{2016-12-10} & \texttt{2} & \texttt{Saturday}
+& \texttt{December}\tabularnewline
+\texttt{CGM\ CMA} & \texttt{2016-12-17} & \texttt{2} & \texttt{Saturday}
+& \texttt{December}\tabularnewline
+\texttt{CGM\ CMA} & \texttt{2016-12-24} & \texttt{2} & \texttt{Saturday}
+& \texttt{December}\tabularnewline
+\texttt{CGM\ CMA} & \texttt{2016-12-31} & \texttt{2} & \texttt{Saturday}
+& \texttt{December}\tabularnewline
+\texttt{Elite\ Photo} & \texttt{2016-11-07} & \texttt{1} &
+\texttt{Monday} & \texttt{November}\tabularnewline
+\texttt{Elite\ Photo} & \texttt{2016-11-14} & \texttt{1} &
+\texttt{Monday} & \texttt{November}\tabularnewline
+\texttt{Elite\ Photo} & \texttt{2016-11-21} & \texttt{1} &
+\texttt{Monday} & \texttt{November}\tabularnewline
+\texttt{Elite\ Photo} & \texttt{2016-11-28} & \texttt{1} &
+\texttt{Monday} & \texttt{November}\tabularnewline
+\texttt{Elite\ Photo} & \texttt{2016-12-05} & \texttt{1} &
+\texttt{Monday} & \texttt{December}\tabularnewline
+\texttt{Elite\ Photo} & \texttt{2016-12-12} & \texttt{1} &
+\texttt{Monday} & \texttt{December}\tabularnewline
+\texttt{Elite\ Photo} & \texttt{2016-12-19} & \texttt{1} &
+\texttt{Monday} & \texttt{December}\tabularnewline
+\texttt{Elite\ Photo} & \texttt{2016-12-26} & \texttt{1} &
+\texttt{Monday} & \texttt{December}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-11-02} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{November}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-11-05} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{November}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-11-09} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{November}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-11-12} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{November}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-11-16} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{November}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-11-19} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{November}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-11-23} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{November}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-11-26} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{November}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-11-30} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{November}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-12-03} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{December}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-12-07} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{December}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-12-10} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{December}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-12-14} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{December}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-12-17} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{December}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-12-21} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{December}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-12-24} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{December}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-12-28} & \texttt{1.5} &
+\texttt{Wednesday} & \texttt{December}\tabularnewline
+\texttt{Inkassotjenester} & \texttt{2016-12-31} & \texttt{1.5} &
+\texttt{Saturday} & \texttt{December}\tabularnewline
+\texttt{Pure\ Water} & \texttt{2016-11-05} & \texttt{1.25} &
+\texttt{Saturday} & \texttt{November}\tabularnewline
+\texttt{Pure\ Water} & \texttt{2016-11-12} & \texttt{1.25} &
+\texttt{Saturday} & \texttt{November}\tabularnewline
+\texttt{Pure\ Water} & \texttt{2016-11-19} & \texttt{1.25} &
+\texttt{Saturday} & \texttt{November}\tabularnewline
+\texttt{Pure\ Water} & \texttt{2016-11-26} & \texttt{1.25} &
+\texttt{Saturday} & \texttt{November}\tabularnewline
+\texttt{Pure\ Water} & \texttt{2016-12-03} & \texttt{1.25} &
+\texttt{Saturday} & \texttt{December}\tabularnewline
+\texttt{Pure\ Water} & \texttt{2016-12-10} & \texttt{1.25} &
+\texttt{Saturday} & \texttt{December}\tabularnewline
+\texttt{Pure\ Water} & \texttt{2016-12-17} & \texttt{1.25} &
+\texttt{Saturday} & \texttt{December}\tabularnewline
+\texttt{Pure\ Water} & \texttt{2016-12-24} & \texttt{1.25} &
+\texttt{Saturday} & \texttt{December}\tabularnewline
+\texttt{Pure\ Water} & \texttt{2016-12-31} & \texttt{1.25} &
+\texttt{Saturday} & \texttt{December}\tabularnewline
+\texttt{Forskning\ Partner} & \texttt{2016-11-05} & \texttt{1} &
+\texttt{Saturday} & \texttt{November}\tabularnewline
+\texttt{Forskning\ Partner} & \texttt{2016-11-12} & \texttt{1} &
+\texttt{Saturday} & \texttt{November}\tabularnewline
+\texttt{Forskning\ Partner} & \texttt{2016-11-19} & \texttt{1} &
+\texttt{Saturday} & \texttt{November}\tabularnewline
+\texttt{Forskning\ Partner} & \texttt{2016-11-26} & \texttt{1} &
+\texttt{Saturday} & \texttt{November}\tabularnewline
+\texttt{Forskning\ Partner} & \texttt{2016-12-03} & \texttt{1} &
+\texttt{Saturday} & \texttt{December}\tabularnewline
+\texttt{Forskning\ Partner} & \texttt{2016-12-10} & \texttt{1} &
+\texttt{Saturday} & \texttt{December}\tabularnewline
+\texttt{Forskning\ Partner} & \texttt{2016-12-17} & \texttt{1} &
+\texttt{Saturday} & \texttt{December}\tabularnewline
+\texttt{Forskning\ Partner} & \texttt{2016-12-24} & \texttt{1} &
+\texttt{Saturday} & \texttt{December}\tabularnewline
+\texttt{Forskning\ Partner} & \texttt{2016-12-31} & \texttt{1} &
+\texttt{Saturday} & \texttt{December}\tabularnewline
+\texttt{Furveric\ AS} & \texttt{2016-11-06} & \texttt{5} &
+\texttt{Sunday} & \texttt{November}\tabularnewline
+\texttt{Furveric\ AS} & \texttt{2016-11-13} & \texttt{5} &
+\texttt{Sunday} & \texttt{November}\tabularnewline
+\texttt{Furveric\ AS} & \texttt{2016-11-20} & \texttt{5} &
+\texttt{Sunday} & \texttt{November}\tabularnewline
+\texttt{Furveric\ AS} & \texttt{2016-11-27} & \texttt{5} &
+\texttt{Sunday} & \texttt{November}\tabularnewline
+\texttt{Furveric\ AS} & \texttt{2016-12-04} & \texttt{5} &
+\texttt{Sunday} & \texttt{December}\tabularnewline
+\texttt{Furveric\ AS} & \texttt{2016-12-11} & \texttt{5} &
+\texttt{Sunday} & \texttt{December}\tabularnewline
+\texttt{Furveric\ AS} & \texttt{2016-12-18} & \texttt{5} &
+\texttt{Sunday} & \texttt{December}\tabularnewline
+\texttt{Furveric\ AS} & \texttt{2016-12-25} & \texttt{5} &
+\texttt{Sunday} & \texttt{December}\tabularnewline
+\texttt{Krista\ Hartmann} & \texttt{2016-11-06} & \texttt{1.5} &
+\texttt{Sunday} & \texttt{November}\tabularnewline
+\texttt{Krista\ Hartmann} & \texttt{2016-11-13} & \texttt{1.5} &
+\texttt{Sunday} & \texttt{November}\tabularnewline
+\texttt{Krista\ Hartmann} & \texttt{2016-11-20} & \texttt{1.5} &
+\texttt{Sunday} & \texttt{November}\tabularnewline
+\texttt{Krista\ Hartmann} & \texttt{2016-11-27} & \texttt{1.5} &
+\texttt{Sunday} & \texttt{November}\tabularnewline
+\texttt{Krista\ Hartmann} & \texttt{2016-12-04} & \texttt{1.5} &
+\texttt{Sunday} & \texttt{December}\tabularnewline
+\texttt{Krista\ Hartmann} & \texttt{2016-12-11} & \texttt{1.5} &
+\texttt{Sunday} & \texttt{December}\tabularnewline
+\texttt{Krista\ Hartmann} & \texttt{2016-12-18} & \texttt{1.5} &
+\texttt{Sunday} & \texttt{December}\tabularnewline
+\texttt{Krista\ Hartmann} & \texttt{2016-12-25} & \texttt{1.5} &
+\texttt{Sunday} & \texttt{December}\tabularnewline
+\texttt{OBH\ Nordica} & \texttt{2016-11-30} & \texttt{0.5} &
+\texttt{Wednesday} & \texttt{November}\tabularnewline
+\texttt{OBH\ Nordica} & \texttt{2016-12-04} & \texttt{1.5} &
+\texttt{Sunday} & \texttt{December}\tabularnewline
+\texttt{OBH\ Nordica} & \texttt{2016-12-07} & \texttt{0.5} &
+\texttt{Wednesday} & \texttt{December}\tabularnewline
+\texttt{OBH\ Nordica} & \texttt{2016-12-11} & \texttt{1.5} &
+\texttt{Sunday} & \texttt{December}\tabularnewline
+\texttt{OBH\ Nordica} & \texttt{2016-12-14} & \texttt{0.5} &
+\texttt{Wednesday} & \texttt{December}\tabularnewline
+\texttt{OBH\ Nordica} & \texttt{2016-12-18} & \texttt{1.5} &
+\texttt{Sunday} & \texttt{December}\tabularnewline
+\texttt{OBH\ Nordica} & \texttt{2016-12-21} & \texttt{0.5} &
+\texttt{Wednesday} & \texttt{December}\tabularnewline
+\texttt{OBH\ Nordica} & \texttt{2016-12-25} & \texttt{1.5} &
+\texttt{Sunday} & \texttt{December}\tabularnewline
+\texttt{OBH\ Nordica} & \texttt{2016-12-28} & \texttt{0.5} &
+\texttt{Wednesday} & \texttt{December}\tabularnewline
+\bottomrule
+\end{longtable}
+
+\section{Working Hours}\label{working-hours}
+
+\subsection{May 2016 - September 2016}\label{may-2016---september-2016}
+
+\begin{longtable}[]{@{}llrrrrrr@{}}
+\toprule
+Month & WorkPlace & Friday & Monday & Saturday & Tuesday & Wednesday &
+All\tabularnewline
+\midrule
+\endhead
+\textbf{May} & CGM CMA & \texttt{-} & \texttt{-} & \texttt{8.0} &
+\texttt{-} & \texttt{-} & \emph{\texttt{8.0}}\tabularnewline
+\begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+Elite Photo\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{5.0}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\emph{\texttt{5.0}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+Holtermann\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{5.0}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{6.0}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{6.0}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\emph{\texttt{17.0}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+Inkassotjenester\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{6.0}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{6.0}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\emph{\texttt{12.0}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+\emph{All}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\emph{\texttt{-}}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\emph{\texttt{10.0}}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\emph{\texttt{20.0}}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\emph{\texttt{-}}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\emph{\texttt{12.0}}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\emph{\texttt{42.0}}\strut
+\end{minipage}\tabularnewline
+\textbf{June} & CGM CMA & \texttt{-} & \texttt{-} & \texttt{8.0} &
+\texttt{-} & \texttt{-} & \emph{\texttt{8.0}}\tabularnewline
+\begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+Elite Photo\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{4.0}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\emph{\texttt{4.0}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+Holtermann\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{4.0}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{6.0}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{7.5}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\emph{\texttt{17.5}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+Inkassotjenester\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{6.0}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{7.5}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\emph{\texttt{13.5}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+\emph{All}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\emph{\texttt{-}}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\emph{\texttt{8.0}}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\emph{\texttt{20.0}}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\emph{\texttt{-}}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\emph{\texttt{15.0}}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\emph{\texttt{43.0}}\strut
+\end{minipage}\tabularnewline
+\textbf{July} & CGM CMA & \texttt{-} & \texttt{-} & \texttt{10.0} &
+\texttt{-} & \texttt{-} & \emph{\texttt{10.0}}\tabularnewline
+\begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+Elite Photo\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{4.0}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\emph{\texttt{4.0}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+Holtermann\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{4.0}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{7.5}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{6.0}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\emph{\texttt{17.5}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+Inkassotjenester\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{7.5}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{6.0}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\emph{\texttt{13.5}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+\emph{All}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\emph{\texttt{-}}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\emph{\texttt{8.0}}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\emph{\texttt{25.0}}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\emph{\texttt{-}}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\emph{\texttt{12.0}}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\emph{\texttt{45.0}}\strut
+\end{minipage}\tabularnewline
+\textbf{August} & Bergen Flis & \texttt{-} & \texttt{-} & \texttt{-} &
+\texttt{1.5} & \texttt{-} & \emph{\texttt{1.5}}\tabularnewline
+\begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+Bolia\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{4.5}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{3.0}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\emph{\texttt{7.5}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+Brilland\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{3.0}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{2.0}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\emph{\texttt{5.0}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+CGM CMA\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{8.0}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\emph{\texttt{8.0}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+DinSko\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{3.0}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{2.0}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\emph{\texttt{5.0}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+Elite Photo\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{5.0}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\emph{\texttt{5.0}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+Holtermann\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{5.0}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{6.0}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{7.5}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\emph{\texttt{18.5}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+Inkassotjenester\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{6.0}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{7.5}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\emph{\texttt{13.5}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+\emph{All}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\emph{\texttt{10.5}}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\emph{\texttt{14.0}}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\emph{\texttt{20.0}}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\emph{\texttt{4.5}}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\emph{\texttt{15.0}}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\emph{\texttt{64.0}}\strut
+\end{minipage}\tabularnewline
+\textbf{September} & Bergen Flis & \texttt{7.5} & \texttt{-} &
+\texttt{-} & \texttt{6.0} & \texttt{-} &
+\emph{\texttt{13.5}}\tabularnewline
+\begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+CGM CMA\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{8.0}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\emph{\texttt{8.0}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+Elite Photo\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{4.0}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\emph{\texttt{4.0}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+H\&M, Moss\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{10.0}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\emph{\texttt{10.0}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+Holtermann\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{4.0}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{6.0}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{6.0}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\emph{\texttt{16.0}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+Inkassotjenester\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{6.0}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{6.0}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\emph{\texttt{12.0}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+Tele Office, Moss\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\texttt{6.0}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\emph{\texttt{6.0}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+\emph{All}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\emph{\texttt{7.5}}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\emph{\texttt{8.0}}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\emph{\texttt{20.0}}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\emph{\texttt{6.0}}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\emph{\texttt{28.0}}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\emph{\texttt{69.5}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedright\strut
+\textbf{Grand Total}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\textbf{\texttt{18.0}}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\textbf{\texttt{48.0}}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\textbf{\texttt{105.0}}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\textbf{\texttt{10.5}}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\textbf{\texttt{82.0}}\strut
+\end{minipage} & \begin{minipage}[t]{0.12\columnwidth}\raggedleft\strut
+\textbf{\texttt{263.5}}\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+
+\clearpage
+
+\subsection{October 2016}\label{october-2016}
+
+\begin{longtable}[]{@{}llrrrrrrr@{}}
+\toprule
+Month & WorkPlace & Friday & Monday & Saturday & Sunday & Tuesday &
+Wednesday & All\tabularnewline
+\midrule
+\endhead
+\textbf{October} & Bergen Flis & \texttt{1.50} & \texttt{-} & \texttt{-}
+& \texttt{-} & \texttt{1.50} & \texttt{-} &
+\emph{\texttt{3.00}}\tabularnewline
+\begin{minipage}[t]{0.11\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedright\strut
+CGM CMA\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\texttt{10.00}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\emph{\texttt{10.00}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.11\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedright\strut
+Company Book\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\texttt{3.00}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\emph{\texttt{3.00}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.11\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedright\strut
+Elite Photo\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\texttt{5.00}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\emph{\texttt{5.00}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.11\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedright\strut
+Forskning Partner\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\texttt{1.00}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\emph{\texttt{1.00}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.11\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedright\strut
+Furveric\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\texttt{5.00}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\emph{\texttt{5.00}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.11\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedright\strut
+Holtermann\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\texttt{5.00}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\texttt{7.50}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\texttt{6.00}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\emph{\texttt{18.50}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.11\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedright\strut
+Inkassotjenester\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\texttt{7.50}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\texttt{6.00}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\emph{\texttt{13.50}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.11\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedright\strut
+Pure Water\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\texttt{1.25}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\emph{\texttt{1.25}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.11\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedright\strut
+\emph{All}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\emph{\texttt{1.50}}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\emph{\texttt{10.00}}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\emph{\texttt{30.25}}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\emph{\texttt{5.00}}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\emph{\texttt{1.50}}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\emph{\texttt{12.00}}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\emph{\texttt{60.25}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.11\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedright\strut
+\textbf{Grand Total}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\textbf{\texttt{1.50}}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\textbf{\texttt{10.00}}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\textbf{\texttt{30.25}}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\textbf{\texttt{5.00}}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\textbf{\texttt{1.50}}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\textbf{\texttt{12.00}}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft\strut
+\textbf{\texttt{60.25}}\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+
+\clearpage
+
+\subsection{November 2016 - December
+2016}\label{november-2016---december-2016}
+
+\begin{longtable}[]{@{}llrrrrr@{}}
+\toprule
+Month & WorkPlace & Monday & Saturday & Sunday & Wednesday &
+All\tabularnewline
+\midrule
+\endhead
+\textbf{November} & CGM CMA & \texttt{-} & \texttt{8.00} & \texttt{-} &
+\texttt{-} & \emph{\texttt{8.00}}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+Company Book\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{2.00}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{2.00}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+Elite Photo\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{4.00}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{4.00}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+Forskning Partner\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{4.00}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{4.00}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+Furveric AS\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{20.00}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{20.00}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+Holtermann\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{4.00}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{6.00}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{7.50}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{17.50}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+Inkassotjenester\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{6.00}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{7.50}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{13.50}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+Krista Hartmann\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{6.00}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{6.00}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+OBH Nordica\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{0.50}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{0.50}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+Pure Water\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{5.00}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{5.00}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\emph{All}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{8.00}}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{31.00}}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{26.00}}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{15.50}}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{80.50}}\strut
+\end{minipage}\tabularnewline
+\textbf{December} & CGM CMA & \texttt{-} & \texttt{10.00} & \texttt{-} &
+\texttt{-} & \emph{\texttt{10.00}}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+Company Book\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{2.00}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{2.00}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+Elite Photo\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{4.00}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{4.00}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+Forskning Partner\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{5.00}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{5.00}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+Furveric AS\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{20.00}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{20.00}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+Holtermann\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{4.00}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{7.50}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{6.00}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{17.50}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+Inkassotjenester\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{7.50}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{6.00}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{13.50}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+Krista Hartmann\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{6.00}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{6.00}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+OBH Nordica\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{6.00}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{2.00}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{8.00}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+Pure Water\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{6.25}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{6.25}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\emph{All}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{8.00}}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{38.25}}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{32.00}}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{14.00}}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{92.25}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\textbf{Grand Total}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\textbf{\texttt{16.00}}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\textbf{\texttt{69.25}}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\textbf{\texttt{58.00}}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\textbf{\texttt{29.50}}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\textbf{\texttt{172.75}}\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+
+\clearpage
+
+\subsection{January 2017 - February
+2017}\label{january-2017---february-2017}
+
+\begin{longtable}[]{@{}llrrrrr@{}}
+\toprule
+Month & WorkPlace & Monday & Saturday & Sunday & Wednesday &
+All\tabularnewline
+\midrule
+\endhead
+\textbf{January} & Furveric AS & \texttt{-} & \texttt{-} & \texttt{25.0}
+& \texttt{-} & \emph{\texttt{25.0}}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\emph{All}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{-}}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{-}}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{25.0}}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{-}}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{25.0}}\strut
+\end{minipage}\tabularnewline
+\textbf{February} & CGM CMA & \texttt{-} & \texttt{4.0} & \texttt{-} &
+\texttt{-} & \emph{\texttt{4.0}}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+Company Book\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{1.0}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{1.0}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+Elite Photo\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{2.0}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{2.0}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+Forskning Partner\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{2.0}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{2.0}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+Furveric AS\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{20.0}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{20.0}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+Holtermann\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{2.0}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{3.0}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{1.5}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{6.5}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+Inkassotjenester\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{3.0}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{1.5}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{4.5}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+Krista Hartmann\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{3.0}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{3.0}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+Pure Water\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{2.5}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{2.5}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\emph{All}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{4.0}}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{15.5}}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{23.0}}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{3.0}}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{45.5}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\textbf{Grand Total}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\textbf{\texttt{4.0}}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\textbf{\texttt{15.5}}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\textbf{\texttt{48.0}}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\textbf{\texttt{3.0}}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\textbf{\texttt{70.5}}\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+
+\clearpage
+
+\subsection{March 2017 - April 2017}\label{march-2017---april-2017}
+
+\begin{longtable}[]{@{}llrrrrr@{}}
+\toprule
+Month & WorkPlace & Monday & Saturday & Sunday & Wednesday &
+All\tabularnewline
+\midrule
+\endhead
+\textbf{March} & CGM CMA & \texttt{-} & \texttt{8.00} & \texttt{-} &
+\texttt{-} & \emph{\texttt{8.00}}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+Company Book\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{2.00}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{2.00}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+Elite Photo\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{4.00}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{4.00}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+Forskning Partner\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{4.00}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{4.00}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+Furveric AS\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{20.00}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{20.00}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+Holtermann\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{4.00}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{6.00}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{7.50}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{17.50}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+Inkassotjenester\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{6.00}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{7.50}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{13.50}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+Krista Hartmann\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{6.00}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{6.00}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+Pure Water\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{5.00}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{5.00}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\emph{All}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{8.00}}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{31.00}}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{26.00}}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{15.00}}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{80.00}}\strut
+\end{minipage}\tabularnewline
+\textbf{April} & CGM CMA & \texttt{-} & \texttt{2.00} & \texttt{-} &
+\texttt{-} & \emph{\texttt{2.00}}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+Company Book\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{1.00}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{1.00}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+Elite Photo\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{1.00}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{1.00}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+Forskning Partner\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{1.00}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{1.00}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+Furveric AS\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{5.00}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{5.00}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+Holtermann\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{1.00}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{1.50}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{1.50}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{4.00}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+Inkassotjenester\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{1.50}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{1.50}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{3.00}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+Krista Hartmann\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{1.50}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{1.50}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+Pure Water\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{1.25}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\texttt{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{1.25}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\emph{All}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{2.00}}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{8.25}}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{6.50}}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{3.00}}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\emph{\texttt{19.75}}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedright\strut
+\textbf{Grand Total}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\textbf{\texttt{10.00}}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\textbf{\texttt{39.25}}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\textbf{\texttt{32.50}}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\textbf{\texttt{18.00}}\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedleft\strut
+\textbf{\texttt{99.75}}\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+
+
+\end{document}

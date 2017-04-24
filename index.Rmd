@@ -1,0 +1,61 @@
+---
+site: bookdown::bookdown_site
+title: "Work Log"
+author: "Junali Chhetri"
+documentclass: article
+fontsize: 11pt
+#classoption: 'landscape'
+geometry: 'left=1in, right=2in, top=0.5in, bottom=0.5in'
+numbersections: no
+papersize: 'A4'
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE, comment = NA, warning = FALSE, message = FALSE
+)
+```
+
+```{r source-script, warning=FALSE, error=FALSE, message=FALSE}
+source("~/Dropbox/WorkLogs/Junali/ReportScript.R")
+all_records <- rbindlist(lapply(paste0("json/", dir("json")), function(file){
+  tbl <- getWorkTable(file)
+}))
+```
+
+
+# Monthly Working Details
+```{r, results='hide'}
+if (file.exists("monthly.csv")) {
+  monthly_summary <- readr::read_csv("monthly.csv")
+} else {
+  monthly_summary <- all_records %>% 
+    group_by(Year = format(Date, "%Y"), 
+             Month = format(Date, "%B") %>% 
+               factor(levels = month.name)) %>%
+    summarize(Hours = sum(Time)) %>% 
+    mutate(
+      Rate = ifelse(Month %in% month.name[-c(1:2)], 174.5, 175),
+      Total = round(Hours * Rate, 2),
+      Tax = purrr::map2_dbl(Total, Year, get_table_tax),
+      `Amount After Tax` = Total - Tax
+    )
+  readr::write_csv(monthly_summary, path = "monthly.csv")
+}
+```
+```{r}
+pander(monthly_summary, round = 2, digits = 7, justify = "rcrrrrr", 
+       decimal.mark = ",", big.mark = ".", keep.trailing.zeros = T)
+```
+
+
+# Complete List of Working Hours
+
+```{r}
+pander(all_records, justify = 'lrrll', style = "rmarkdown", split.tables = Inf,
+         emphasize.verbatim.cols = 1:5)
+```
+
+# Working Hours

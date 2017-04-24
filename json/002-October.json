@@ -1,0 +1,62 @@
+{
+    "Bergen Flis": {
+        "start_date": "2016-10-01",
+        "end_date": "2016-10-31",
+        "day_time": {
+            "Friday": 1.5,
+            "Tuesday": 1.5
+        }
+    },
+    "Holtermann": {
+        "start_date": "2016-10-01",
+        "end_date": "2016-10-31",
+        "day_time": {
+            "Monday": 1,
+            "Wednesday": 1.5,
+            "Saturday": 1.5                
+        }
+    },
+    "CGM CMA": {
+        "start_date": "2016-10-01",
+        "end_date": "2016-10-31",
+        "day_time": {
+            "Saturday": 2
+        }
+    },
+    "Elite Photo": {
+        "start_date": "2016-10-01",
+        "end_date": "2016-10-31",
+        "day_time": {
+            "Monday": 1
+        }
+    },
+    "Inkassotjenester": {
+        "start_date": "2016-10-01",
+        "end_date": "2016-10-31",
+        "day_time": {
+            "Wednesday": 1.5,
+            "Saturday": 1.5
+        }
+    },
+    "Pure Water": {
+      "start_date": "2016-10-29",
+      "end_date": "2016-10-31",
+      "day_time": {
+        "Saturday": 1.25
+      }
+    },
+    "Forskning Partner": {
+      "start_date": "2016-10-29",
+      "end_date": "2016-10-31",
+      "day_time": {
+        "Saturday": 1
+      }
+    },
+    "Furveric": {
+      "start_date": "2016-10-29",
+      "end_date": "2016-10-31",
+      "day_time": {
+        "Sunday": 5
+      }
+    }
+}

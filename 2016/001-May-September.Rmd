@@ -1,0 +1,9 @@
+## May 2016 - September 2016
+
+```{r}
+tbl <- makeTable(getWorkTable("json/001-May-September.json"))
+```
+
+```{r, results='asis'}
+printTable(tbl)
+```

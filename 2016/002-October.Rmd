@@ -1,0 +1,24 @@
+\clearpage
+
+## October 2016
+
+
+```{r}
+tbl <- getWorkTable("json/002-October.json",
+                    extra_dates = c("2016-10-01", "2016-10-15", "2016-10-29"),
+                    time = 1)
+tbl[
+  Date >= "2016-10-11" & 
+    Date <= "2016-10-31" & 
+    WorkPlace == "Bergen Flis", 
+  c("Time", "remarks") := .(0, "train strik")
+  ]
+tbl[Date == "2016-11-15" & WorkPlace == "Bergen Flis", 
+    c("Time", "remarks") := .(0, "sick")]
+
+tbl <- makeTable(tbl)
+```
+
+```{r, results='asis'}
+printTable(tbl)
+```

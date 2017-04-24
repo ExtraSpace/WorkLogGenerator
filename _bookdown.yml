@@ -1,0 +1,11 @@
+book_filename: "WorkLog.Rmd"
+after_chapter_script: ""
+output_dir: "WorkLog"
+rmd_files: [
+  "index.Rmd",
+  "2016/001-May-September.Rmd",
+  "2016/002-October.Rmd",
+  "2016/003-November-December.Rmd",
+  "2017/001-January-February.Rmd",
+  "2017/002-March-April.Rmd"
+]

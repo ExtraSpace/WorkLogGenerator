@@ -1,0 +1,9 @@
+bookdown::gitbook:
+  number_sections: no
+  config:
+    download: ["pdf", "epub"]
+bookdown::pdf_book:
+  toc: no
+  keep_tex: yes
+  includes:
+    in_header: header.tex

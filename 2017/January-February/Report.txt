@@ -1,0 +1,85 @@
+WorkPlace	Date	Time	Day	Month	remarks
+Holtermann	2017-02-18	1.5	Saturday	February	
+Holtermann	2017-02-19	0.0	Sunday	February	
+Holtermann	2017-02-20	1.0	Monday	February	
+Holtermann	2017-02-22	1.5	Wednesday	February	
+Holtermann	2017-02-25	1.5	Saturday	February	
+Holtermann	2017-02-26	0.0	Sunday	February	
+Holtermann	2017-02-27	1.0	Monday	February	
+CGM CMA	2017-02-18	2.0	Saturday	February	
+CGM CMA	2017-02-19	0.0	Sunday	February	
+CGM CMA	2017-02-20	0.0	Monday	February	
+CGM CMA	2017-02-22	0.0	Wednesday	February	
+CGM CMA	2017-02-25	2.0	Saturday	February	
+CGM CMA	2017-02-26	0.0	Sunday	February	
+CGM CMA	2017-02-27	0.0	Monday	February	
+Elite Photo	2017-02-18	0.0	Saturday	February	
+Elite Photo	2017-02-19	0.0	Sunday	February	
+Elite Photo	2017-02-20	1.0	Monday	February	
+Elite Photo	2017-02-22	0.0	Wednesday	February	
+Elite Photo	2017-02-25	0.0	Saturday	February	
+Elite Photo	2017-02-26	0.0	Sunday	February	
+Elite Photo	2017-02-27	1.0	Monday	February	
+Inkassotjenester	2017-02-18	1.5	Saturday	February	
+Inkassotjenester	2017-02-19	0.0	Sunday	February	
+Inkassotjenester	2017-02-20	0.0	Monday	February	
+Inkassotjenester	2017-02-22	1.5	Wednesday	February	
+Inkassotjenester	2017-02-25	1.5	Saturday	February	
+Inkassotjenester	2017-02-26	0.0	Sunday	February	
+Inkassotjenester	2017-02-27	0.0	Monday	February	
+Pure Water	2017-02-18	1.25	Saturday	February	
+Pure Water	2017-02-19	0.0	Sunday	February	
+Pure Water	2017-02-20	0.0	Monday	February	
+Pure Water	2017-02-22	0.0	Wednesday	February	
+Pure Water	2017-02-25	1.25	Saturday	February	
+Pure Water	2017-02-26	0.0	Sunday	February	
+Pure Water	2017-02-27	0.0	Monday	February	
+Forskning Partner	2017-02-18	1.0	Saturday	February	
+Forskning Partner	2017-02-19	0.0	Sunday	February	
+Forskning Partner	2017-02-20	0.0	Monday	February	
+Forskning Partner	2017-02-22	0.0	Wednesday	February	
+Forskning Partner	2017-02-25	1.0	Saturday	February	
+Forskning Partner	2017-02-26	0.0	Sunday	February	
+Forskning Partner	2017-02-27	0.0	Monday	February	
+Furveric AS	2017-01-01	5.0	Sunday	January	
+Furveric AS	2017-01-02	0.0	Monday	January	
+Furveric AS	2017-01-04	0.0	Wednesday	January	
+Furveric AS	2017-01-07	0.0	Saturday	January	
+Furveric AS	2017-01-08	5.0	Sunday	January	
+Furveric AS	2017-01-09	0.0	Monday	January	
+Furveric AS	2017-01-11	0.0	Wednesday	January	
+Furveric AS	2017-01-14	0.0	Saturday	January	
+Furveric AS	2017-01-15	5.0	Sunday	January	
+Furveric AS	2017-01-16	0.0	Monday	January	
+Furveric AS	2017-01-18	0.0	Wednesday	January	
+Furveric AS	2017-01-21	0.0	Saturday	January	
+Furveric AS	2017-01-22	5.0	Sunday	January	
+Furveric AS	2017-01-23	0.0	Monday	January	
+Furveric AS	2017-01-25	0.0	Wednesday	January	
+Furveric AS	2017-01-28	0.0	Saturday	January	
+Furveric AS	2017-01-29	5.0	Sunday	January	
+Furveric AS	2017-01-30	0.0	Monday	January	
+Furveric AS	2017-02-01	0.0	Wednesday	February	
+Furveric AS	2017-02-04	0.0	Saturday	February	
+Furveric AS	2017-02-05	5.0	Sunday	February	
+Furveric AS	2017-02-06	0.0	Monday	February	
+Furveric AS	2017-02-08	0.0	Wednesday	February	
+Furveric AS	2017-02-11	0.0	Saturday	February	
+Furveric AS	2017-02-12	5.0	Sunday	February	
+Furveric AS	2017-02-13	0.0	Monday	February	
+Furveric AS	2017-02-15	0.0	Wednesday	February	
+Furveric AS	2017-02-18	0.0	Saturday	February	
+Furveric AS	2017-02-19	5.0	Sunday	February	
+Furveric AS	2017-02-20	0.0	Monday	February	
+Furveric AS	2017-02-22	0.0	Wednesday	February	
+Furveric AS	2017-02-25	0.0	Saturday	February	
+Furveric AS	2017-02-26	5.0	Sunday	February	
+Furveric AS	2017-02-27	0.0	Monday	February	
+Krista Hartmann	2017-02-18	0.0	Saturday	February	
+Krista Hartmann	2017-02-19	1.5	Sunday	February	
+Krista Hartmann	2017-02-20	0.0	Monday	February	
+Krista Hartmann	2017-02-22	0.0	Wednesday	February	
+Krista Hartmann	2017-02-25	0.0	Saturday	February	
+Krista Hartmann	2017-02-26	1.5	Sunday	February	
+Krista Hartmann	2017-02-27	0.0	Monday	February	
+Company Book	2017-02-18	1.0	Saturday	February	

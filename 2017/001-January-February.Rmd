@@ -1,0 +1,11 @@
+\clearpage
+
+## January 2017 - February 2017
+
+```{r}
+tbl <- makeTable(getWorkTable("json/001-January-February.json", extra_dates = c("2017-02-18"), time = 1))
+```
+
+```{r, results='asis'}
+printTable(tbl)
+```

@@ -1,0 +1,69 @@
+{
+    "Holtermann": {
+        "start_date": "2016-11-01",
+        "end_date": "2016-12-31",
+        "day_time": {
+            "Monday": 1,
+            "Wednesday": 1.5,
+            "Saturday": 1.5                
+        }
+    },
+    "CGM CMA": {
+        "start_date": "2016-11-01",
+        "end_date": "2016-12-31",
+        "day_time": {
+            "Saturday": 2
+        }
+    },
+    "Elite Photo": {
+        "start_date": "2016-11-01",
+        "end_date": "2016-12-31",
+        "day_time": {
+            "Monday": 1
+        }
+    },
+    "Inkassotjenester": {
+        "start_date": "2016-11-01",
+        "end_date": "2016-12-31",
+        "day_time": {
+            "Wednesday": 1.5,
+            "Saturday": 1.5
+        }
+    },
+    "Pure Water": {
+        "start_date": "2016-11-01",
+        "end_date": "2016-12-31",
+        "day_time": {
+            "Saturday": 1.25
+        }
+    },
+    "Forskning Partner": {
+        "start_date": "2016-11-01",
+        "end_date": "2016-12-31",
+        "day_time": {
+            "Saturday": 1
+        }
+    },
+    "Furveric AS": {
+        "start_date": "2016-11-01",
+        "end_date": "2016-12-31",
+        "day_time": {
+            "Sunday": 5
+        }
+    },
+    "Krista Hartmann": {
+        "start_date": "2016-11-01",
+        "end_date": "2016-12-31",
+        "day_time": {
+            "Sunday": 1.5
+        }
+    },
+    "OBH Nordica": {
+      "start_date": "2016-11-30",
+      "end_date": "2016-12-31",
+      "day_time": {
+          "Wednesday": 0.5,
+          "Sunday": 1.5
+      }
+    }
+}

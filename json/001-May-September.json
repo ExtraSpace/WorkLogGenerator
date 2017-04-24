@@ -1,0 +1,79 @@
+{
+    "Bergen Flis": {
+        "start_date": "2016-08-30",
+        "end_date": "2016-09-30",
+        "day_time": {
+            "Friday": 1.5,
+            "Tuesday": 1.5
+        }
+    },
+    "Bolia": {
+        "start_date": "2016-08-12",
+        "end_date": "2016-08-26",
+        "day_time": {
+            "Friday": 1.5,
+            "Tuesday": 1.5
+        }
+    },
+    "Brilland": {
+        "start_date": "2016-08-12",
+        "end_date": "2016-08-26",
+        "day_time": {
+            "Friday": 1,
+            "Monday": 1
+        }
+    },
+    "DinSko": {
+        "start_date": "2016-08-12",
+        "end_date": "2016-08-26",
+        "day_time": {
+            "Friday": 1,
+            "Monday": 1
+        }
+    },
+    "Holtermann": {
+        "start_date": "2016-05-02",
+        "end_date": "2016-09-30",
+        "day_time": {
+            "Monday": 1,
+            "Wednesday": 1.5,
+            "Saturday": 1.5                
+        }
+    },
+    "CGM CMA": {
+        "start_date": "2016-05-02",
+        "end_date": "2016-09-30",
+        "day_time": {
+            "Saturday": 2
+        }
+    },
+    "Elite Photo": {
+        "start_date": "2016-05-02",
+        "end_date": "2016-09-30",
+        "day_time": {
+            "Monday": 1
+        }
+    },
+    "Inkassotjenester": {
+        "start_date": "2016-05-02",
+        "end_date": "2016-09-30",
+        "day_time": {
+            "Wednesday": 1.5,
+            "Saturday": 1.5
+        }
+    },
+    "H&M, Moss": {
+      "start_date": "2016-09-20",
+      "end_date": "2016-09-30",
+      "day_time": {
+        "Wednesday": 5
+      }
+    },
+    "Tele Office, Moss": {
+      "start_date": "2016-09-20",
+      "end_date": "2016-09-30",
+      "day_time": {
+        "Wednesday": 3
+      }
+    }
+}

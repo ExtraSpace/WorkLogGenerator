@@ -1,0 +1,61 @@
+{
+    "Holtermann": {
+        "start_date": "2017-02-18",
+        "end_date": "2017-02-27",
+        "day_time": {
+            "Monday": 1,
+            "Wednesday": 1.5,
+            "Saturday": 1.5                
+        }
+    },
+    "CGM CMA": {
+        "start_date": "2017-02-18",
+        "end_date": "2017-02-27",
+        "day_time": {
+            "Saturday": 2
+        }
+    },
+    "Elite Photo": {
+        "start_date": "2017-02-18",
+        "end_date": "2017-02-27",
+        "day_time": {
+            "Monday": 1
+        }
+    },
+    "Inkassotjenester": {
+        "start_date": "2017-02-18",
+        "end_date": "2017-02-27",
+        "day_time": {
+            "Wednesday": 1.5,
+            "Saturday": 1.5
+        }
+    },
+    "Pure Water": {
+        "start_date": "2017-02-18",
+        "end_date": "2017-02-27",
+        "day_time": {
+            "Saturday": 1.25
+        }
+    },
+    "Forskning Partner": {
+        "start_date": "2017-02-18",
+        "end_date": "2017-02-27",
+        "day_time": {
+            "Saturday": 1
+        }
+    },
+    "Furveric AS": {
+        "start_date": "2017-01-01",
+        "end_date": "2017-02-27",
+        "day_time": {
+            "Sunday": 5
+        }
+    },
+    "Krista Hartmann": {
+        "start_date": "2017-02-18",
+        "end_date": "2017-02-27",
+        "day_time": {
+            "Sunday": 1.5
+        }
+    }
+}

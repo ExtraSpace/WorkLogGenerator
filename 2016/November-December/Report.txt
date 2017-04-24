@@ -1,0 +1,295 @@
+WorkPlace	Date	Time	Day	Month	remarks
+Holtermann	2016-11-02	1.5	Wednesday	November	
+Holtermann	2016-11-05	1.5	Saturday	November	
+Holtermann	2016-11-06	0.0	Sunday	November	
+Holtermann	2016-11-07	1.0	Monday	November	
+Holtermann	2016-11-09	1.5	Wednesday	November	
+Holtermann	2016-11-12	1.5	Saturday	November	
+Holtermann	2016-11-13	0.0	Sunday	November	
+Holtermann	2016-11-14	1.0	Monday	November	
+Holtermann	2016-11-16	1.5	Wednesday	November	
+Holtermann	2016-11-19	1.5	Saturday	November	
+Holtermann	2016-11-20	0.0	Sunday	November	
+Holtermann	2016-11-21	1.0	Monday	November	
+Holtermann	2016-11-23	1.5	Wednesday	November	
+Holtermann	2016-11-26	1.5	Saturday	November	
+Holtermann	2016-11-27	0.0	Sunday	November	
+Holtermann	2016-11-28	1.0	Monday	November	
+Holtermann	2016-11-30	1.5	Wednesday	November	
+Holtermann	2016-12-03	1.5	Saturday	December	
+Holtermann	2016-12-04	0.0	Sunday	December	
+Holtermann	2016-12-05	1.0	Monday	December	
+Holtermann	2016-12-07	1.5	Wednesday	December	
+Holtermann	2016-12-10	1.5	Saturday	December	
+Holtermann	2016-12-11	0.0	Sunday	December	
+Holtermann	2016-12-12	1.0	Monday	December	
+Holtermann	2016-12-14	1.5	Wednesday	December	
+Holtermann	2016-12-17	1.5	Saturday	December	
+Holtermann	2016-12-18	0.0	Sunday	December	
+Holtermann	2016-12-19	1.0	Monday	December	
+Holtermann	2016-12-21	1.5	Wednesday	December	
+Holtermann	2016-12-24	1.5	Saturday	December	
+Holtermann	2016-12-25	0.0	Sunday	December	
+Holtermann	2016-12-26	1.0	Monday	December	
+Holtermann	2016-12-28	1.5	Wednesday	December	
+Holtermann	2016-12-31	1.5	Saturday	December	
+CGM CMA	2016-11-02	0.0	Wednesday	November	
+CGM CMA	2016-11-05	2.0	Saturday	November	
+CGM CMA	2016-11-06	0.0	Sunday	November	
+CGM CMA	2016-11-07	0.0	Monday	November	
+CGM CMA	2016-11-09	0.0	Wednesday	November	
+CGM CMA	2016-11-12	2.0	Saturday	November	
+CGM CMA	2016-11-13	0.0	Sunday	November	
+CGM CMA	2016-11-14	0.0	Monday	November	
+CGM CMA	2016-11-16	0.0	Wednesday	November	
+CGM CMA	2016-11-19	2.0	Saturday	November	
+CGM CMA	2016-11-20	0.0	Sunday	November	
+CGM CMA	2016-11-21	0.0	Monday	November	
+CGM CMA	2016-11-23	0.0	Wednesday	November	
+CGM CMA	2016-11-26	2.0	Saturday	November	
+CGM CMA	2016-11-27	0.0	Sunday	November	
+CGM CMA	2016-11-28	0.0	Monday	November	
+CGM CMA	2016-11-30	0.0	Wednesday	November	
+CGM CMA	2016-12-03	2.0	Saturday	December	
+CGM CMA	2016-12-04	0.0	Sunday	December	
+CGM CMA	2016-12-05	0.0	Monday	December	
+CGM CMA	2016-12-07	0.0	Wednesday	December	
+CGM CMA	2016-12-10	2.0	Saturday	December	
+CGM CMA	2016-12-11	0.0	Sunday	December	
+CGM CMA	2016-12-12	0.0	Monday	December	
+CGM CMA	2016-12-14	0.0	Wednesday	December	
+CGM CMA	2016-12-17	2.0	Saturday	December	
+CGM CMA	2016-12-18	0.0	Sunday	December	
+CGM CMA	2016-12-19	0.0	Monday	December	
+CGM CMA	2016-12-21	0.0	Wednesday	December	
+CGM CMA	2016-12-24	2.0	Saturday	December	
+CGM CMA	2016-12-25	0.0	Sunday	December	
+CGM CMA	2016-12-26	0.0	Monday	December	
+CGM CMA	2016-12-28	0.0	Wednesday	December	
+CGM CMA	2016-12-31	2.0	Saturday	December	
+Elite Photo	2016-11-02	0.0	Wednesday	November	
+Elite Photo	2016-11-05	0.0	Saturday	November	
+Elite Photo	2016-11-06	0.0	Sunday	November	
+Elite Photo	2016-11-07	1.0	Monday	November	
+Elite Photo	2016-11-09	0.0	Wednesday	November	
+Elite Photo	2016-11-12	0.0	Saturday	November	
+Elite Photo	2016-11-13	0.0	Sunday	November	
+Elite Photo	2016-11-14	1.0	Monday	November	
+Elite Photo	2016-11-16	0.0	Wednesday	November	
+Elite Photo	2016-11-19	0.0	Saturday	November	
+Elite Photo	2016-11-20	0.0	Sunday	November	
+Elite Photo	2016-11-21	1.0	Monday	November	
+Elite Photo	2016-11-23	0.0	Wednesday	November	
+Elite Photo	2016-11-26	0.0	Saturday	November	
+Elite Photo	2016-11-27	0.0	Sunday	November	
+Elite Photo	2016-11-28	1.0	Monday	November	
+Elite Photo	2016-11-30	0.0	Wednesday	November	
+Elite Photo	2016-12-03	0.0	Saturday	December	
+Elite Photo	2016-12-04	0.0	Sunday	December	
+Elite Photo	2016-12-05	1.0	Monday	December	
+Elite Photo	2016-12-07	0.0	Wednesday	December	
+Elite Photo	2016-12-10	0.0	Saturday	December	
+Elite Photo	2016-12-11	0.0	Sunday	December	
+Elite Photo	2016-12-12	1.0	Monday	December	
+Elite Photo	2016-12-14	0.0	Wednesday	December	
+Elite Photo	2016-12-17	0.0	Saturday	December	
+Elite Photo	2016-12-18	0.0	Sunday	December	
+Elite Photo	2016-12-19	1.0	Monday	December	
+Elite Photo	2016-12-21	0.0	Wednesday	December	
+Elite Photo	2016-12-24	0.0	Saturday	December	
+Elite Photo	2016-12-25	0.0	Sunday	December	
+Elite Photo	2016-12-26	1.0	Monday	December	
+Elite Photo	2016-12-28	0.0	Wednesday	December	
+Elite Photo	2016-12-31	0.0	Saturday	December	
+Inkassotjenester	2016-11-02	1.5	Wednesday	November	
+Inkassotjenester	2016-11-05	1.5	Saturday	November	
+Inkassotjenester	2016-11-06	0.0	Sunday	November	
+Inkassotjenester	2016-11-07	0.0	Monday	November	
+Inkassotjenester	2016-11-09	1.5	Wednesday	November	
+Inkassotjenester	2016-11-12	1.5	Saturday	November	
+Inkassotjenester	2016-11-13	0.0	Sunday	November	
+Inkassotjenester	2016-11-14	0.0	Monday	November	
+Inkassotjenester	2016-11-16	1.5	Wednesday	November	
+Inkassotjenester	2016-11-19	1.5	Saturday	November	
+Inkassotjenester	2016-11-20	0.0	Sunday	November	
+Inkassotjenester	2016-11-21	0.0	Monday	November	
+Inkassotjenester	2016-11-23	1.5	Wednesday	November	
+Inkassotjenester	2016-11-26	1.5	Saturday	November	
+Inkassotjenester	2016-11-27	0.0	Sunday	November	
+Inkassotjenester	2016-11-28	0.0	Monday	November	
+Inkassotjenester	2016-11-30	1.5	Wednesday	November	
+Inkassotjenester	2016-12-03	1.5	Saturday	December	
+Inkassotjenester	2016-12-04	0.0	Sunday	December	
+Inkassotjenester	2016-12-05	0.0	Monday	December	
+Inkassotjenester	2016-12-07	1.5	Wednesday	December	
+Inkassotjenester	2016-12-10	1.5	Saturday	December	
+Inkassotjenester	2016-12-11	0.0	Sunday	December	
+Inkassotjenester	2016-12-12	0.0	Monday	December	
+Inkassotjenester	2016-12-14	1.5	Wednesday	December	
+Inkassotjenester	2016-12-17	1.5	Saturday	December	
+Inkassotjenester	2016-12-18	0.0	Sunday	December	
+Inkassotjenester	2016-12-19	0.0	Monday	December	
+Inkassotjenester	2016-12-21	1.5	Wednesday	December	
+Inkassotjenester	2016-12-24	1.5	Saturday	December	
+Inkassotjenester	2016-12-25	0.0	Sunday	December	
+Inkassotjenester	2016-12-26	0.0	Monday	December	
+Inkassotjenester	2016-12-28	1.5	Wednesday	December	
+Inkassotjenester	2016-12-31	1.5	Saturday	December	
+Pure Water	2016-11-02	0.0	Wednesday	November	
+Pure Water	2016-11-05	1.25	Saturday	November	
+Pure Water	2016-11-06	0.0	Sunday	November	
+Pure Water	2016-11-07	0.0	Monday	November	
+Pure Water	2016-11-09	0.0	Wednesday	November	
+Pure Water	2016-11-12	1.25	Saturday	November	
+Pure Water	2016-11-13	0.0	Sunday	November	
+Pure Water	2016-11-14	0.0	Monday	November	
+Pure Water	2016-11-16	0.0	Wednesday	November	
+Pure Water	2016-11-19	1.25	Saturday	November	
+Pure Water	2016-11-20	0.0	Sunday	November	
+Pure Water	2016-11-21	0.0	Monday	November	
+Pure Water	2016-11-23	0.0	Wednesday	November	
+Pure Water	2016-11-26	1.25	Saturday	November	
+Pure Water	2016-11-27	0.0	Sunday	November	
+Pure Water	2016-11-28	0.0	Monday	November	
+Pure Water	2016-11-30	0.0	Wednesday	November	
+Pure Water	2016-12-03	1.25	Saturday	December	
+Pure Water	2016-12-04	0.0	Sunday	December	
+Pure Water	2016-12-05	0.0	Monday	December	
+Pure Water	2016-12-07	0.0	Wednesday	December	
+Pure Water	2016-12-10	1.25	Saturday	December	
+Pure Water	2016-12-11	0.0	Sunday	December	
+Pure Water	2016-12-12	0.0	Monday	December	
+Pure Water	2016-12-14	0.0	Wednesday	December	
+Pure Water	2016-12-17	1.25	Saturday	December	
+Pure Water	2016-12-18	0.0	Sunday	December	
+Pure Water	2016-12-19	0.0	Monday	December	
+Pure Water	2016-12-21	0.0	Wednesday	December	
+Pure Water	2016-12-24	1.25	Saturday	December	
+Pure Water	2016-12-25	0.0	Sunday	December	
+Pure Water	2016-12-26	0.0	Monday	December	
+Pure Water	2016-12-28	0.0	Wednesday	December	
+Pure Water	2016-12-31	1.25	Saturday	December	
+Forskning Partner	2016-11-02	0.0	Wednesday	November	
+Forskning Partner	2016-11-05	1.0	Saturday	November	
+Forskning Partner	2016-11-06	0.0	Sunday	November	
+Forskning Partner	2016-11-07	0.0	Monday	November	
+Forskning Partner	2016-11-09	0.0	Wednesday	November	
+Forskning Partner	2016-11-12	1.0	Saturday	November	
+Forskning Partner	2016-11-13	0.0	Sunday	November	
+Forskning Partner	2016-11-14	0.0	Monday	November	
+Forskning Partner	2016-11-16	0.0	Wednesday	November	
+Forskning Partner	2016-11-19	1.0	Saturday	November	
+Forskning Partner	2016-11-20	0.0	Sunday	November	
+Forskning Partner	2016-11-21	0.0	Monday	November	
+Forskning Partner	2016-11-23	0.0	Wednesday	November	
+Forskning Partner	2016-11-26	1.0	Saturday	November	
+Forskning Partner	2016-11-27	0.0	Sunday	November	
+Forskning Partner	2016-11-28	0.0	Monday	November	
+Forskning Partner	2016-11-30	0.0	Wednesday	November	
+Forskning Partner	2016-12-03	1.0	Saturday	December	
+Forskning Partner	2016-12-04	0.0	Sunday	December	
+Forskning Partner	2016-12-05	0.0	Monday	December	
+Forskning Partner	2016-12-07	0.0	Wednesday	December	
+Forskning Partner	2016-12-10	1.0	Saturday	December	
+Forskning Partner	2016-12-11	0.0	Sunday	December	
+Forskning Partner	2016-12-12	0.0	Monday	December	
+Forskning Partner	2016-12-14	0.0	Wednesday	December	
+Forskning Partner	2016-12-17	1.0	Saturday	December	
+Forskning Partner	2016-12-18	0.0	Sunday	December	
+Forskning Partner	2016-12-19	0.0	Monday	December	
+Forskning Partner	2016-12-21	0.0	Wednesday	December	
+Forskning Partner	2016-12-24	1.0	Saturday	December	
+Forskning Partner	2016-12-25	0.0	Sunday	December	
+Forskning Partner	2016-12-26	0.0	Monday	December	
+Forskning Partner	2016-12-28	0.0	Wednesday	December	
+Forskning Partner	2016-12-31	1.0	Saturday	December	
+Furveric AS	2016-11-02	0.0	Wednesday	November	
+Furveric AS	2016-11-05	0.0	Saturday	November	
+Furveric AS	2016-11-06	5.0	Sunday	November	
+Furveric AS	2016-11-07	0.0	Monday	November	
+Furveric AS	2016-11-09	0.0	Wednesday	November	
+Furveric AS	2016-11-12	0.0	Saturday	November	
+Furveric AS	2016-11-13	5.0	Sunday	November	
+Furveric AS	2016-11-14	0.0	Monday	November	
+Furveric AS	2016-11-16	0.0	Wednesday	November	
+Furveric AS	2016-11-19	0.0	Saturday	November	
+Furveric AS	2016-11-20	5.0	Sunday	November	
+Furveric AS	2016-11-21	0.0	Monday	November	
+Furveric AS	2016-11-23	0.0	Wednesday	November	
+Furveric AS	2016-11-26	0.0	Saturday	November	
+Furveric AS	2016-11-27	5.0	Sunday	November	
+Furveric AS	2016-11-28	0.0	Monday	November	
+Furveric AS	2016-11-30	0.0	Wednesday	November	
+Furveric AS	2016-12-03	0.0	Saturday	December	
+Furveric AS	2016-12-04	5.0	Sunday	December	
+Furveric AS	2016-12-05	0.0	Monday	December	
+Furveric AS	2016-12-07	0.0	Wednesday	December	
+Furveric AS	2016-12-10	0.0	Saturday	December	
+Furveric AS	2016-12-11	5.0	Sunday	December	
+Furveric AS	2016-12-12	0.0	Monday	December	
+Furveric AS	2016-12-14	0.0	Wednesday	December	
+Furveric AS	2016-12-17	0.0	Saturday	December	
+Furveric AS	2016-12-18	5.0	Sunday	December	
+Furveric AS	2016-12-19	0.0	Monday	December	
+Furveric AS	2016-12-21	0.0	Wednesday	December	
+Furveric AS	2016-12-24	0.0	Saturday	December	
+Furveric AS	2016-12-25	5.0	Sunday	December	
+Furveric AS	2016-12-26	0.0	Monday	December	
+Furveric AS	2016-12-28	0.0	Wednesday	December	
+Furveric AS	2016-12-31	0.0	Saturday	December	
+Krista Hartmann	2016-11-02	0.0	Wednesday	November	
+Krista Hartmann	2016-11-05	0.0	Saturday	November	
+Krista Hartmann	2016-11-06	1.5	Sunday	November	
+Krista Hartmann	2016-11-07	0.0	Monday	November	
+Krista Hartmann	2016-11-09	0.0	Wednesday	November	
+Krista Hartmann	2016-11-12	0.0	Saturday	November	
+Krista Hartmann	2016-11-13	1.5	Sunday	November	
+Krista Hartmann	2016-11-14	0.0	Monday	November	
+Krista Hartmann	2016-11-16	0.0	Wednesday	November	
+Krista Hartmann	2016-11-19	0.0	Saturday	November	
+Krista Hartmann	2016-11-20	1.5	Sunday	November	
+Krista Hartmann	2016-11-21	0.0	Monday	November	
+Krista Hartmann	2016-11-23	0.0	Wednesday	November	
+Krista Hartmann	2016-11-26	0.0	Saturday	November	
+Krista Hartmann	2016-11-27	1.5	Sunday	November	
+Krista Hartmann	2016-11-28	0.0	Monday	November	
+Krista Hartmann	2016-11-30	0.0	Wednesday	November	
+Krista Hartmann	2016-12-03	0.0	Saturday	December	
+Krista Hartmann	2016-12-04	1.5	Sunday	December	
+Krista Hartmann	2016-12-05	0.0	Monday	December	
+Krista Hartmann	2016-12-07	0.0	Wednesday	December	
+Krista Hartmann	2016-12-10	0.0	Saturday	December	
+Krista Hartmann	2016-12-11	1.5	Sunday	December	
+Krista Hartmann	2016-12-12	0.0	Monday	December	
+Krista Hartmann	2016-12-14	0.0	Wednesday	December	
+Krista Hartmann	2016-12-17	0.0	Saturday	December	
+Krista Hartmann	2016-12-18	1.5	Sunday	December	
+Krista Hartmann	2016-12-19	0.0	Monday	December	
+Krista Hartmann	2016-12-21	0.0	Wednesday	December	
+Krista Hartmann	2016-12-24	0.0	Saturday	December	
+Krista Hartmann	2016-12-25	1.5	Sunday	December	
+Krista Hartmann	2016-12-26	0.0	Monday	December	
+Krista Hartmann	2016-12-28	0.0	Wednesday	December	
+Krista Hartmann	2016-12-31	0.0	Saturday	December	
+OBH Nordica	2016-11-30	0.5	Wednesday	November	
+OBH Nordica	2016-12-03	0.0	Saturday	December	
+OBH Nordica	2016-12-04	1.5	Sunday	December	
+OBH Nordica	2016-12-05	0.0	Monday	December	
+OBH Nordica	2016-12-07	0.5	Wednesday	December	
+OBH Nordica	2016-12-10	0.0	Saturday	December	
+OBH Nordica	2016-12-11	1.5	Sunday	December	
+OBH Nordica	2016-12-12	0.0	Monday	December	
+OBH Nordica	2016-12-14	0.5	Wednesday	December	
+OBH Nordica	2016-12-17	0.0	Saturday	December	
+OBH Nordica	2016-12-18	1.5	Sunday	December	
+OBH Nordica	2016-12-19	0.0	Monday	December	
+OBH Nordica	2016-12-21	0.5	Wednesday	December	
+OBH Nordica	2016-12-24	0.0	Saturday	December	
+OBH Nordica	2016-12-25	1.5	Sunday	December	
+OBH Nordica	2016-12-26	0.0	Monday	December	
+OBH Nordica	2016-12-28	0.5	Wednesday	December	
+OBH Nordica	2016-12-31	0.0	Saturday	December	
+Company Book	2016-11-12	1.0	Saturday	November	
+Company Book	2016-11-26	1.0	Saturday	November	
+Company Book	2016-12-10	1.0	Saturday	December	
+Company Book	2016-12-24	1.0	Saturday	December	

@@ -1,0 +1,110 @@
+---
+title: "Work Log Report"
+author: "Junali Chhetri"
+date: "15/02/2017"
+output:
+  html_document:
+    highlight: tango
+    theme: cosmo
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, comment = NA, results = 'hide')
+```
+
+<!-- ## Loading Packages -->
+```{r, warning=FALSE, message=FALSE}
+pkgs <- c("data.table", "jsonlite", "readr", "pander", "tables", "shinyAce", "shiny")
+for (pkg in pkgs) require(pkg, character.only = TRUE)
+```
+
+<!-- ## Setting up work info table from json file -->
+
+```{r}
+work_list <- jsonlite::fromJSON("work-place.json")
+work_hr <- rbindlist(lapply(lapply(work_list, function(x) x[[3]]), as.data.table),
+                     idcol = T, fill = TRUE)
+work_from_to <- rbindlist(lapply(lapply(work_list, function(x) x[1:2]), as.data.table),
+                          idcol = T, fill = TRUE)
+setnames(work_hr, ".id", "WorkPlace")
+setnames(work_from_to, ".id", "WorkPlace")
+work_hr[is.na(work_hr)] <- 0
+```
+
+<!-- ## Function to Generate Work Table -->
+```{r}
+generate_wtbl <- function(start_date, end_date, day_time_list){
+  names(day_time_list) <- tolower(names(day_time_list))
+  date_seq <- seq(as.Date(start_date, "%Y-%m-%d"), 
+                  as.Date(end_date, "%Y-%m-%d"), 
+                  by = "days")
+  wdays_idx <- which(tolower(weekdays(date_seq)) %in% names(day_time_list))
+  wdates <- date_seq[wdays_idx]
+  wtimes <- sapply(tolower(weekdays(wdates)), function(x) day_time_list[[x]])
+  # return(data.frame(Date = wdates, Day = weekdays(wdates), Time = wtimes))
+  return(data.frame(Date = wdates, Time = wtimes))
+}
+```
+
+
+<!-- ## Generate Work Table -->
+```{r}
+workplace <- `names<-`(work_hr$WorkPlace, work_hr$WorkPlace)
+work_table <- purrr::map_df(workplace, 
+                            ~generate_wtbl(work_from_to[WorkPlace == .x, start_date],
+                                           work_from_to[WorkPlace == .x, end_date], 
+                                           work_hr[WorkPlace == .x, -"WorkPlace"]), 
+                            .id = "WorkPlace")
+# work_table <- purrr::pmap_df(with(work_from_to, list(WorkPlace, start_date, end_date)), 
+#                              generate_work_table, .id = "workplace")
+# work_table[, workplace := work_from_to$WorkPlace[as.numeric(workplace)]]
+# work_table[, workplace := work_from_to$WorkPlace[as.numeric(workplace)]]
+# work_table <- sapply(work_from_to$WorkPlace, function(wp){
+#   generate_work_table(wp,
+#                       work_from_to[WorkPlace == wp, start_date],
+#                       work_from_to[WorkPlace == wp, end_date])
+# }, simplify = F)
+# work_table <- rbindlist(work_table, idcol = TRUE)
+# work_table <- setnames(work_table, ".id", "WorkPlace")
+```
+
+<!-- ## Edit/Update/Delete Records -->
+```{r}
+company_book_table <- data.frame(
+  WorkPlace = "Company Book",
+  Date = as.Date(c("2016-11-12", "2016-11-26", "2016-12-10", "2016-12-24")),
+  Time = 1)
+work_table <- data.table(rbind(work_table, company_book_table))
+
+## ---- Adjusting Train Strike and Sick --------------------------
+work_table[, c("Day", "Month") := .(weekdays(Date), month.name[as.numeric(month(Date))])]
+work_table[, remarks := ""]
+# work_table[Date >= "2016-10-11" & Date <= "2016-10-31" & WorkPlace == "Bergen Flis", c("time", "remarks") := .(0, "train strik")]
+# work_table[Date == "2016-11-15" & WorkPlace == "Bergen Flis", c("time", "remarks") := .(0, "sick")]
+```
+
+<!-- ## Exporting final Records to text file -->
+```{r, eval = F}
+file_name <- "text-report/work-log-nov-dec.txt"
+write_tsv(work_table, path = file_name)
+```
+
+<!-- ## Work Log Report -->
+```{r}
+work_table[, c("WorkPlace", "Day", "Month") := 
+             lapply(.SD, as.factor), .SDcols = c("WorkPlace", "Day", "Month")
+           ]
+```
+```{r printingTable, results='asis'}
+pander(
+  tabular(
+    (Month) * (WorkPlace + (All = 1)) + Heading("Grand Total") * 1 ~  
+      Heading() * (Day + Heading("All") * 1) * Heading() * Format(digits = 3) * Time * Heading() * sum, 
+    data = work_table
+  ), justify = 'llrrrrr', style = "rmarkdown", split.tables = Inf
+)
+```
+
+
+

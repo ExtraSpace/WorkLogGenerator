@@ -1,0 +1,172 @@
+WorkPlace	Date	Time	Day	Month	remarks
+Holtermann	2017-03-01	1.5	Wednesday	March	
+Holtermann	2017-03-04	1.5	Saturday	March	
+Holtermann	2017-03-05	0	Sunday	March	
+Holtermann	2017-03-06	1	Monday	March	
+Holtermann	2017-03-08	1.5	Wednesday	March	
+Holtermann	2017-03-11	1.5	Saturday	March	
+Holtermann	2017-03-12	0	Sunday	March	
+Holtermann	2017-03-13	1	Monday	March	
+Holtermann	2017-03-15	1.5	Wednesday	March	
+Holtermann	2017-03-18	1.5	Saturday	March	
+Holtermann	2017-03-19	0	Sunday	March	
+Holtermann	2017-03-20	1	Monday	March	
+Holtermann	2017-03-22	1.5	Wednesday	March	
+Holtermann	2017-03-25	1.5	Saturday	March	
+Holtermann	2017-03-26	0	Sunday	March	
+Holtermann	2017-03-27	1	Monday	March	
+Holtermann	2017-03-29	1.5	Wednesday	March	
+Holtermann	2017-04-01	1.5	Saturday	April	
+Holtermann	2017-04-02	0	Sunday	April	
+Holtermann	2017-04-03	1	Monday	April	
+Holtermann	2017-04-05	1.5	Wednesday	April	
+CGM CMA	2017-03-01	0	Wednesday	March	
+CGM CMA	2017-03-04	2	Saturday	March	
+CGM CMA	2017-03-05	0	Sunday	March	
+CGM CMA	2017-03-06	0	Monday	March	
+CGM CMA	2017-03-08	0	Wednesday	March	
+CGM CMA	2017-03-11	2	Saturday	March	
+CGM CMA	2017-03-12	0	Sunday	March	
+CGM CMA	2017-03-13	0	Monday	March	
+CGM CMA	2017-03-15	0	Wednesday	March	
+CGM CMA	2017-03-18	2	Saturday	March	
+CGM CMA	2017-03-19	0	Sunday	March	
+CGM CMA	2017-03-20	0	Monday	March	
+CGM CMA	2017-03-22	0	Wednesday	March	
+CGM CMA	2017-03-25	2	Saturday	March	
+CGM CMA	2017-03-26	0	Sunday	March	
+CGM CMA	2017-03-27	0	Monday	March	
+CGM CMA	2017-03-29	0	Wednesday	March	
+CGM CMA	2017-04-01	2	Saturday	April	
+CGM CMA	2017-04-02	0	Sunday	April	
+CGM CMA	2017-04-03	0	Monday	April	
+CGM CMA	2017-04-05	0	Wednesday	April	
+Elite Photo	2017-03-01	0	Wednesday	March	
+Elite Photo	2017-03-04	0	Saturday	March	
+Elite Photo	2017-03-05	0	Sunday	March	
+Elite Photo	2017-03-06	1	Monday	March	
+Elite Photo	2017-03-08	0	Wednesday	March	
+Elite Photo	2017-03-11	0	Saturday	March	
+Elite Photo	2017-03-12	0	Sunday	March	
+Elite Photo	2017-03-13	1	Monday	March	
+Elite Photo	2017-03-15	0	Wednesday	March	
+Elite Photo	2017-03-18	0	Saturday	March	
+Elite Photo	2017-03-19	0	Sunday	March	
+Elite Photo	2017-03-20	1	Monday	March	
+Elite Photo	2017-03-22	0	Wednesday	March	
+Elite Photo	2017-03-25	0	Saturday	March	
+Elite Photo	2017-03-26	0	Sunday	March	
+Elite Photo	2017-03-27	1	Monday	March	
+Elite Photo	2017-03-29	0	Wednesday	March	
+Elite Photo	2017-04-01	0	Saturday	April	
+Elite Photo	2017-04-02	0	Sunday	April	
+Elite Photo	2017-04-03	1	Monday	April	
+Elite Photo	2017-04-05	0	Wednesday	April	
+Inkassotjenester	2017-03-01	1.5	Wednesday	March	
+Inkassotjenester	2017-03-04	1.5	Saturday	March	
+Inkassotjenester	2017-03-05	0	Sunday	March	
+Inkassotjenester	2017-03-06	0	Monday	March	
+Inkassotjenester	2017-03-08	1.5	Wednesday	March	
+Inkassotjenester	2017-03-11	1.5	Saturday	March	
+Inkassotjenester	2017-03-12	0	Sunday	March	
+Inkassotjenester	2017-03-13	0	Monday	March	
+Inkassotjenester	2017-03-15	1.5	Wednesday	March	
+Inkassotjenester	2017-03-18	1.5	Saturday	March	
+Inkassotjenester	2017-03-19	0	Sunday	March	
+Inkassotjenester	2017-03-20	0	Monday	March	
+Inkassotjenester	2017-03-22	1.5	Wednesday	March	
+Inkassotjenester	2017-03-25	1.5	Saturday	March	
+Inkassotjenester	2017-03-26	0	Sunday	March	
+Inkassotjenester	2017-03-27	0	Monday	March	
+Inkassotjenester	2017-03-29	1.5	Wednesday	March	
+Inkassotjenester	2017-04-01	1.5	Saturday	April	
+Inkassotjenester	2017-04-02	0	Sunday	April	
+Inkassotjenester	2017-04-03	0	Monday	April	
+Inkassotjenester	2017-04-05	1.5	Wednesday	April	
+Pure Water	2017-03-01	0	Wednesday	March	
+Pure Water	2017-03-04	1.25	Saturday	March	
+Pure Water	2017-03-05	0	Sunday	March	
+Pure Water	2017-03-06	0	Monday	March	
+Pure Water	2017-03-08	0	Wednesday	March	
+Pure Water	2017-03-11	1.25	Saturday	March	
+Pure Water	2017-03-12	0	Sunday	March	
+Pure Water	2017-03-13	0	Monday	March	
+Pure Water	2017-03-15	0	Wednesday	March	
+Pure Water	2017-03-18	1.25	Saturday	March	
+Pure Water	2017-03-19	0	Sunday	March	
+Pure Water	2017-03-20	0	Monday	March	
+Pure Water	2017-03-22	0	Wednesday	March	
+Pure Water	2017-03-25	1.25	Saturday	March	
+Pure Water	2017-03-26	0	Sunday	March	
+Pure Water	2017-03-27	0	Monday	March	
+Pure Water	2017-03-29	0	Wednesday	March	
+Pure Water	2017-04-01	1.25	Saturday	April	
+Pure Water	2017-04-02	0	Sunday	April	
+Pure Water	2017-04-03	0	Monday	April	
+Pure Water	2017-04-05	0	Wednesday	April	
+Forskning Partner	2017-03-01	0	Wednesday	March	
+Forskning Partner	2017-03-04	1	Saturday	March	
+Forskning Partner	2017-03-05	0	Sunday	March	
+Forskning Partner	2017-03-06	0	Monday	March	
+Forskning Partner	2017-03-08	0	Wednesday	March	
+Forskning Partner	2017-03-11	1	Saturday	March	
+Forskning Partner	2017-03-12	0	Sunday	March	
+Forskning Partner	2017-03-13	0	Monday	March	
+Forskning Partner	2017-03-15	0	Wednesday	March	
+Forskning Partner	2017-03-18	1	Saturday	March	
+Forskning Partner	2017-03-19	0	Sunday	March	
+Forskning Partner	2017-03-20	0	Monday	March	
+Forskning Partner	2017-03-22	0	Wednesday	March	
+Forskning Partner	2017-03-25	1	Saturday	March	
+Forskning Partner	2017-03-26	0	Sunday	March	
+Forskning Partner	2017-03-27	0	Monday	March	
+Forskning Partner	2017-03-29	0	Wednesday	March	
+Forskning Partner	2017-04-01	1	Saturday	April	
+Forskning Partner	2017-04-02	0	Sunday	April	
+Forskning Partner	2017-04-03	0	Monday	April	
+Forskning Partner	2017-04-05	0	Wednesday	April	
+Furveric AS	2017-03-01	0	Wednesday	March	
+Furveric AS	2017-03-04	0	Saturday	March	
+Furveric AS	2017-03-05	5	Sunday	March	
+Furveric AS	2017-03-06	0	Monday	March	
+Furveric AS	2017-03-08	0	Wednesday	March	
+Furveric AS	2017-03-11	0	Saturday	March	
+Furveric AS	2017-03-12	5	Sunday	March	
+Furveric AS	2017-03-13	0	Monday	March	
+Furveric AS	2017-03-15	0	Wednesday	March	
+Furveric AS	2017-03-18	0	Saturday	March	
+Furveric AS	2017-03-19	5	Sunday	March	
+Furveric AS	2017-03-20	0	Monday	March	
+Furveric AS	2017-03-22	0	Wednesday	March	
+Furveric AS	2017-03-25	0	Saturday	March	
+Furveric AS	2017-03-26	5	Sunday	March	
+Furveric AS	2017-03-27	0	Monday	March	
+Furveric AS	2017-03-29	0	Wednesday	March	
+Furveric AS	2017-04-01	0	Saturday	April	
+Furveric AS	2017-04-02	5	Sunday	April	
+Furveric AS	2017-04-03	0	Monday	April	
+Furveric AS	2017-04-05	0	Wednesday	April	
+Krista Hartmann	2017-03-01	0	Wednesday	March	
+Krista Hartmann	2017-03-04	0	Saturday	March	
+Krista Hartmann	2017-03-05	1.5	Sunday	March	
+Krista Hartmann	2017-03-06	0	Monday	March	
+Krista Hartmann	2017-03-08	0	Wednesday	March	
+Krista Hartmann	2017-03-11	0	Saturday	March	
+Krista Hartmann	2017-03-12	1.5	Sunday	March	
+Krista Hartmann	2017-03-13	0	Monday	March	
+Krista Hartmann	2017-03-15	0	Wednesday	March	
+Krista Hartmann	2017-03-18	0	Saturday	March	
+Krista Hartmann	2017-03-19	1.5	Sunday	March	
+Krista Hartmann	2017-03-20	0	Monday	March	
+Krista Hartmann	2017-03-22	0	Wednesday	March	
+Krista Hartmann	2017-03-25	0	Saturday	March	
+Krista Hartmann	2017-03-26	1.5	Sunday	March	
+Krista Hartmann	2017-03-27	0	Monday	March	
+Krista Hartmann	2017-03-29	0	Wednesday	March	
+Krista Hartmann	2017-04-01	0	Saturday	April	
+Krista Hartmann	2017-04-02	1.5	Sunday	April	
+Krista Hartmann	2017-04-03	0	Monday	April	
+Krista Hartmann	2017-04-05	0	Wednesday	April	
+Company Book	2017-03-04	1	Saturday	March	
+Company Book	2017-03-18	1	Saturday	March	
+Company Book	2017-04-01	1	Saturday	April	
